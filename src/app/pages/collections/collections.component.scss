@@ -1,0 +1,60 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  background-color: #393839;
+  padding: 0 1rem; 
+}
+
+.logo-container {
+  flex: 1; 
+}
+
+.collection-logo {
+  height: 100px; 
+  object-fit: contain; 
+}
+
+.button-container {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.btn-back-home {
+  display: inline-block;
+  color: #fff;
+  background-color: #B6852D;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px; 
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.full-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-tab-group {
+  flex: 1;
+}
+
+.tab-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+mat-card {
+  width: 200px;
+  margin: 1rem;
+}
+
+mat-tab {
+  height: 100px;
+}

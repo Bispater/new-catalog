@@ -1,26 +1,31 @@
 <div class="grid-container">
-  <div class="grid-item">
+  <a class="onstar-home" href="https://gmotors.bootic.net/products/onstar">
+    <img src="https://assets.bolder.run/themes/9169/os-logo-trans1.png?1692902098">
+  </a>
+  <div class="grid-item" (click)="navigateToCollection('AUTOS')">
     <div class="overlay">
       <img src="https://r.btcdn.co/11643/original/915231-AUTOS.jpg" alt="Autos">
       <h2>AUTOS</h2>
     </div>
   </div>
-  <div class="grid-item">
+  <div class="grid-item" (click)="navigateToCollection('PICK-UPS & VANS')">
     <div class="overlay">
       <img src="https://r.btcdn.co/11643/original/779223-PICKUP_-_COLORADO.jpg" alt="Pickup Colorado">
-      <h2>PICKUP COLORADO</h2>
+      <h2>PICK-UPS & VANS</h2>
     </div>
-  </div>  
-  <div class="grid-item">
+  </div>
+  <div class="grid-item" (click)="navigateToCollection('SUVS')">
     <div class="overlay">
       <img src="https://r.btcdn.co/11643/original/779224-TRAVERESE_-_SUV_2.jpg" alt="Traverse SUV">
-      <h2>TRAVERSE SUV</h2>
+      <h2>SUV'S</h2>
     </div>
   </div>
-  <div class="grid-item">
+  <div class="grid-item" (click)="navigateToCollection('ELECTRICOS')">
     <div class="overlay">
       <img src="https://r.btcdn.co/11643/original/915577-04-bolt-galeria-ext.jpg" alt="Bolt EV">
-      <h2>BOLT EV</h2>
+      <h2>ELÉCTRICOS</h2>
     </div>
   </div>
+  
+  
 </div>
