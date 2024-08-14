@@ -1,0 +1,129 @@
+.car-image {
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 10px auto;
+  img {
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+.name-selected h3 {
+  display: flex;
+  justify-content: center;
+  color: #313131;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  border-radius: 15px;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-shadow: 5px 5px 20px #a7a7a72c;
+  font-family: "LouisBold", sans-serif;
+}
+.color-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #f7f7f7; // Fondo claro
+  padding: 20px; // Espacio interior
+  border-radius: 10px; // Borde redondeado
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Sombra suave
+
+  button {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background-color: #d9ba1f;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.back-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  color: #fff;
+  background-color: #b6852d;
+  padding: 0.8rem 1.5rem 0.8rem 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  gap: 20px;
+  line-height: 1.2;
+}
+
+.color-buttons button:nth-child(1) {
+  background-image: url('https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/01-images/colorizer/colorchips/onix-sedan-color-rojo.jpg');
+  background-size: cover;
+}
+
+.color-buttons button:nth-child(2) {
+  background-image: url('https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/01-images/colorizer/colorchips/onix-sedan-color-azul.jpg');
+  background-size: cover;
+}
+
+.color-buttons button:nth-child(3) {
+  background-color: #cccccc;
+  background-image: url('https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/01-images/colorizer/colorchips/onix-sedan-color-plata-metalico.jpg');
+  background-size: cover;
+}
+
+.color-buttons button:nth-child(4) {
+  background-image: url('https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/01-images/colorizer/colorchips/onix-sedan-color-blanco.jpg');
+  background-size: cover;
+}
+
+.color-buttons button:nth-child(5) {
+  background-image: url('https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/gris-oscuro-ggv.jpg');
+  background-size: cover;
+}
+
+.color-buttons button:nth-child(6) {
+  background-image: url('https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/3-negro-gb8.jpg');
+  background-size: cover;
+  background-color: #000000;
+}
+.btn-group-container {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  padding: 20px;
+  background-color: rgba(169, 169, 169, 0.7);
+  border-radius: 10px;
+
+  .btn {
+    margin-left: 15px;
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: "LouisBold", sans-serif;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    display: inline-block;
+    width: max-content;
+
+    &:hover {
+      background-color: darken(#a6731f, 10%);
+    }
+  }
+}

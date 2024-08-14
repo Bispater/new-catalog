@@ -1,0 +1,26 @@
+<button class="btn back-button" [routerLink]="['/']">
+    <mat-icon matPrefix>arrow_back</mat-icon>
+    Volver
+  </button>
+<div class="car-image">
+    <img [src]="selectedColor.image" alt="Auto">
+</div>
+<div class="color-buttons">
+    <button *ngFor="let color of colors" (click)="changeColor(color)">
+    </button>
+</div>
+<div class="name-selected">
+    <h3>{{nameOfSelectedColor}}</h3>
+</div>
+<div class="btn-group-container">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('colors')">COLORES</button>
+      <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('especificaciones')">ESPECIFICACIONES
+        DESTACADAS</button>
+      <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('onstar')">ONSTAR</button>
+      <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('ficha-tecnica')">FICHA TÉCNICA</button>
+      <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('comparacion')">COMPARACIÓN DE
+        VERSIONES</button>
+      <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('qr')">ENLACE QR</button>
+    </div>
+  </div>
