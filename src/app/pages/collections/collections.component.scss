@@ -2,41 +2,52 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 140px;
+  height: 100px;
   background-color: #393839;
-  padding: 0 1rem; 
+  padding: 0 1rem;
 }
 
 .logo-container {
-  flex: 1; 
+  flex: 1;
 }
 
 .collection-logo {
-  height: 100px; 
-  object-fit: contain; 
+  height: 70px;
+  object-fit: contain;
 }
 
 .button-container {
-  flex: 1; 
+  flex: 1;
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
 }
 
 .btn-back-home {
   display: inline-block;
   color: #fff;
-  background-color: #B6852D;
+  background-color: #b6852d;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
-  border-radius: 4px; 
+  border-radius: 4px;
   font-size: 1rem;
   line-height: 1.2;
+}
+
+.arrow-left {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 .full-screen {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #efefef;
 }
 
 mat-tab-group {
@@ -47,14 +58,82 @@ mat-tab-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 1rem;
+  padding: 10px;
 }
 
 mat-card {
-  width: 200px;
-  margin: 1rem;
+  margin-top: 20px;
+  width: 450px;
+
+  mat-card-title {
+    padding: 15px;
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #262626;
+    font-family: "LouisBold", sans-serif;
+    font-style: inherit;
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+  }
 }
 
 mat-tab {
   height: 100px;
+}
+
+.price {
+  color: #6e6e6e;
+  letter-spacing: 3px;
+  line-height: 1.625rem;
+  font-size: 25px;
+
+  span {
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+}
+
+.car-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #dda412;
+  }
+}
+
+::ng-deep
+  .mat-mdc-tab-group.mat-mdc-tab-group-stretch-tabs
+  > .mat-mdc-tab-header
+  .mat-mdc-tab {
+  height: 80px;
+  background-color: gray;
+}
+
+::ng-deep
+  .mat-mdc-tab-group.mat-mdc-tab-group-stretch-tabs
+  > .mat-mdc-tab-header
+  .mat-mdc-tab
+  .mdc-tab__text-label {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-family: "LouisBold", sans-serif;
+}
+
+::ng-deep
+  .mat-mdc-tab-group.mat-mdc-tab-group-stretch-tabs
+  > .mat-mdc-tab-header
+  .mdc-tab-indicator {
+  background-color: #dda412;
+  height: 7px;
+}
+
+::ng-deep .mat-mdc-tab .mdc-tab-indicator__content--underline {
+  border-color: #7d5a00 !important;
+  border-top-width: 12px !important;
 }

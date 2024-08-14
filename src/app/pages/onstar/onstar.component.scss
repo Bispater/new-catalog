@@ -1,0 +1,159 @@
+.onstar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+}
+
+.onstar-left,
+.onstar-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.onstar-left img,
+.onstar-right img {
+  width: 100%;
+  height: auto;
+}
+
+.onstar-button {
+  position: absolute;
+  padding: 1rem 2rem;
+  background-color: #777777;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 7px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  text-shadow: 3px 3px 10px #00000071;
+  box-shadow: 0 8px 16px 0 rgba(226, 226, 226, 0.2),
+    0 6px 20px 0 rgba(202, 202, 202, 0.795);
+}
+
+.button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.btn-back-home {
+  background-color: #686868;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(226, 226, 226, 0.2),
+  0 6px 20px 0 rgba(202, 202, 202, 0.795);
+}
+
+.onstar-button:hover {
+  background-color: #a6731f;
+  text-shadow: none;
+}
+
+.btn-back-home:hover {
+  background-color: #a6731f;
+}
+
+.button-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.arrow-left {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.video-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.video-container {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90%;
+  background-color: #000;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    background: #B6852D;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+  .onstar-container {
+    flex-direction: column; /* Los cuadros se apilan verticalmente */
+  }
+
+  .onstar-left,
+  .onstar-right {
+    width: 100%; /* Asegura que ambos cuadros ocupen el 100% del ancho */
+  }
+
+  .onstar-left img,
+  .onstar-right img {
+    height: auto;
+  }
+
+  .onstar-button {
+    padding: 0.8rem 1.6rem; /* Ajusta el padding del botón */
+    font-size: 2rem; /* Ajusta el tamaño de la fuente */
+  }
+}

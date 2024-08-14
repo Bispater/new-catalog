@@ -6,38 +6,56 @@
         </a>
     </div>
     <div class="button-container">
-        <a routerLink="/" class="btn-back-home">Volver al Home</a>
+        <a routerLink="/" class="btn-back-home">
+            <span class="arrow-left"></span>
+            Volver al Home</a>
     </div>
 </header>
 
 <div class="full-screen">
-    <mat-tab-group>
-        <mat-tab label="Autos">
+    <mat-tab-group [selectedIndex]="selectedTabIndex">
+        <mat-tab label="Autos" >
             <div class="tab-content">
-                <mat-card *ngFor="let car of autos">
-                    <mat-card-header>
-                        <mat-card-title>{{ car.name }}</mat-card-title>
-                    </mat-card-header>
+                <mat-card *ngFor="let car of autos"  class="car-card" (click)="goToProduct(car)">
                     <img mat-card-image [src]="car.image" alt="{{ car.name }}">
+                    <mat-card-title>{{ car.name }}</mat-card-title>
                     <mat-card-content>
-                        <p>Price: {{ car.price }}</p>
-                    </mat-card-content>
+                        <p class="price">Desde: <span>{{ car.price }}</span></p>
+                    </mat-card-content>                     
                 </mat-card>
             </div>
         </mat-tab>
         <mat-tab label="Pick-Ups & Vans">
             <div class="tab-content">
-                <!-- Similar content for this tab -->
+                <mat-card *ngFor="let car of pickups" class="car-card" (click)="goToProduct(car)">
+                    <img mat-card-image [src]="car.image" alt="{{ car.name }}">
+                    <mat-card-title>{{ car.name }}</mat-card-title>
+                    <mat-card-content>
+                        <p class="price">Desde: <span>{{ car.price }}</span></p>
+                    </mat-card-content>
+                </mat-card>
             </div>
         </mat-tab>
         <mat-tab label="SUVs">
             <div class="tab-content">
-                <!-- Similar content for this tab -->
+                <mat-card *ngFor="let car of suvs" class="car-card" (click)="goToProduct(car)">
+                    <img mat-card-image [src]="car.image" alt="{{ car.name }}">
+                    <mat-card-title>{{ car.name }}</mat-card-title>
+                    <mat-card-content>
+                        <p class="price">Desde: <span>{{ car.price }}</span></p>
+                    </mat-card-content>
+                </mat-card>
             </div>
         </mat-tab>
-        <mat-tab label="Electricos">
+        <mat-tab label="Eléctricos">
             <div class="tab-content">
-                <!-- Similar content for this tab -->
+                <mat-card *ngFor="let car of electrics" class="car-card" (click)="goToProduct(car)">
+                    <img mat-card-image [src]="car.image" alt="{{ car.name }}">
+                    <mat-card-title>{{ car.name }}</mat-card-title>
+                    <mat-card-content>
+                        <p class="price">Desde: <span>{{ car.price }}</span></p>
+                    </mat-card-content>
+                </mat-card>
             </div>
         </mat-tab>
     </mat-tab-group>

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CollectionsComponent } from "../collections/collections.component";
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CollectionsComponent],
+  imports: [CollectionsComponent, RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
