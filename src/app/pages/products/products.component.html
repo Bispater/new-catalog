@@ -1,30 +1,25 @@
 <div *ngIf="car" class="car-details-container">
-    <!-- Nombre del auto -->
-    <h1 class="car-name">{{ car.name }}</h1>
-    
-    <!-- Carrusel de imágenes -->
-    <div id="carCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div *ngFor="let image of car.images; let i = index" class="carousel-item" [ngClass]="{'active': i === 0}">
-          <img [src]="image.src" class="d-block w-100" [alt]="image.alt">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-      <div class="btn-group" role="group">
-        <button type="button" class="btn btn-primary" (click)="navigateTo('colores')">COLORES</button>
-        <button type="button" class="btn btn-primary" (click)="navigateTo('especificaciones')">Especificaciones destacadas</button>
-        <button type="button" class="btn btn-primary" (click)="navigateTo('ficha-tecnica')">Ficha técnica</button>
-        <button type="button" class="btn btn-primary" (click)="navigateTo('comparacion')">Comparación de versiones</button>
-        <button type="button" class="btn btn-primary" (click)="navigateTo('qr')">Enlace QR</button>
-      </div>
-    </div>  
-    
+  <div class="button-container">
+    <a routerLink="/" class="btn-back-home">
+      <span class="arrow-left"></span>
+      Volver al Home
+    </a>
   </div>
-  
+  <h1 class="car-name">{{ car.name }}</h1>
+  <div id="carCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div *ngFor="let image of car.images; let i = index" class="carousel-item" [ngClass]="{'active': i === 0}">
+        <img [src]="image.src" class="d-block w-100" [alt]="image.alt">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <app-bottom-menu [car]="car"></app-bottom-menu>
+  </div>
+</div>

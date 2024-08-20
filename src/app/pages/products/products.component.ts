@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Router } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
+import { BottomMenuComponent } from "../../components/bottom-menu/bottom-menu.component";
 
 @Component({
   selector: 'app-products',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule, BottomMenuComponent],
   templateUrl: './products.component.html',
   styleUrl: './products.component.scss'
 })
@@ -15,17 +15,14 @@ export class ProductsComponent {
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router
   ) {}
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
       const carName = params.get('name');
       this.car = history.state.car; 
+      console.log("this car ?", this.car)
     });
   }
-
-  navigateTo(route: string) {
-    this.router.navigate([`/${route}`]);
-  }
+  
 }

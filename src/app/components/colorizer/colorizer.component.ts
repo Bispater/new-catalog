@@ -28,10 +28,22 @@ export class ColorizerComponent implements OnInit {
   }
 
   changeColor(color: any) {
-    console.log("color ? ", color);
-    this.selectedColor = color;
-    this.nameOfSelectedColor = color.color;
+    const imgElement = document.querySelector('.car-image img');
+    
+    if (imgElement) {
+      imgElement.classList.add('fade-out');
+      
+      setTimeout(() => {
+        this.selectedColor = color;
+        this.nameOfSelectedColor = color.color;
+        imgElement.classList.remove('fade-out');
+      }, 200); 
+    } else {
+      console.error('El elemento img no se encontró.');
+    }
   }
+  
+  
 
   navigateTo(route: string) {
     console.log("navigation to ", route);

@@ -55,6 +55,32 @@ export class CollectionsComponent implements OnInit {
           "src": "https://r.btcdn.co/11643/original/782781-01-onix-sedan-int-cl.jpg",
           "alt": "Onix Sedán - 01-onix-sedan-int-cl.jpg"
         }
+      ],
+      "colors": [
+        {
+          "color": "Rojo Metálico",
+          "image": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/01-onix-sedan-turbo-rojo-met.jpg?imwidth=1200"
+        },
+        {
+          "color": "Azul Metálico",
+          "image": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/02-onix-sedan-turbo-azul-met.jpg?imwidth=1200"
+        },
+        {
+          "color": "Plata Metálico",
+          "image": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/03-onix-sedan-turbo-plata-met.jpg?imwidth=1200"
+        },
+        {
+          "color": "Blanco",
+          "image": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/04-onix-sedan-turbo-blanco.jpg?imwidth=1200"
+        },
+        {
+          "color": "GRIS OSCURO METÁLICO",
+          "image": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/05-onix-sedan-turbo-gris-osc.jpg?imwidth=1200"
+        },
+        {
+          "color": "Negro Metálico",
+          "image": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/06-onix-sedan-turbo-negro.jpg?imwidth=1200"
+        }
       ]
     },
     {
