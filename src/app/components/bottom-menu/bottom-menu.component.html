@@ -1,7 +1,9 @@
 <div class="btn-group-container">
     <div class="btn-group" role="group">
-      <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('colors')">COLORES</button>
-      <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('especificaciones')">ESPECIFICACIONES
+      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['images']">IMÁGENES</button>
+      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['colors']">COLORES</button>
+      <!-- <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('colors')">COLORES</button> -->
+      <button type="button" class="btn btn-primary btn-responsive" (click)="openPopup()">ESPECIFICACIONES
         DESTACADAS</button>
       <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('onstar')">ONSTAR</button>
       <button type="button" class="btn btn-primary btn-responsive" (click)="navigateTo('ficha-tecnica')">FICHA TÉCNICA</button>
@@ -10,3 +12,5 @@
       <button type="button" class="btn btn-primary btn-responsive" (click)="openPopup()">ENLACE QR</button>
     </div>
   </div>
+
+  
