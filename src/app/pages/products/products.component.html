@@ -1,4 +1,4 @@
-<div *ngIf="car" class="car-details-container">
+<!-- <div *ngIf="car" class="car-details-container">
   <div class="button-container">
     <a routerLink="/" class="btn-back-home">
       <span class="arrow-left"></span>
@@ -20,6 +20,9 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-    <app-bottom-menu [car]="car"></app-bottom-menu>
   </div>
-</div>
+</div> -->
+
+
+<router-outlet></router-outlet>
+<app-bottom-menu [car]="car"></app-bottom-menu>
