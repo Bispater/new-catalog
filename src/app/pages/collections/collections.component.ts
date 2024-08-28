@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { Router } from '@angular/router';
+// import { MetricsService } from '../../services/metrics.service';
 
 @Component({
   selector: 'app-collections',
@@ -330,11 +331,16 @@ export class CollectionsComponent implements OnInit {
     },
   ];
 
-  constructor(private route: ActivatedRoute, private router: Router) {}
+  constructor(
+    private route: ActivatedRoute, 
+    private router: Router,
+    // private services: MetricsService
+    ) {}
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
       this.title = params.get('title') || '';
+      // this.services.sendMetrics(this.title);
       const tab = this.title;
       console.log('param name', tab);
       switch (tab) {
