@@ -1,0 +1,20 @@
+<div class="car-details-container">
+  <div class="carousel slide" id="carCarousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div *ngFor="let spec of specs; let i = index" class="carousel-item" [ngClass]="{'active': i === 0}">
+        <img [src]="spec.img" class="d-block w-100" [alt]="spec.text">
+        <div class="carousel-caption d-none d-md-block">
+          <p>{{ spec.text }}</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>

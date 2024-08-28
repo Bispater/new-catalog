@@ -3,6 +3,8 @@ import { Router, RouterModule } from '@angular/router';
 import { QrPopupComponent } from '../qr-popup/qr-popup.component';
 import { MatDialog } from '@angular/material/dialog';
 import { CarDataService } from '../../services/dataService';
+import { SpecsPopupComponent } from '../specs-popup/specs-popup.component';
+import { TechnicalPopupComponent } from '../technical-popup/technical-popup.component';
 
 @Component({
   selector: 'app-bottom-menu',
@@ -39,10 +41,26 @@ export class BottomMenuComponent implements OnInit {
     });
   }
 
+  // openPopupEspecify() {
+  //   this.dialog.open(SpecsPopupComponent, {
+  //   });
+  // }
+
   openPopupEspecify() {
-    this.dialog.open(QrPopupComponent, {
+    this.dialog.open(SpecsPopupComponent, {
+      width: '80%', // Ajusta el ancho del popup
+      height: 'auto', // Ajusta la altura del popup (puedes especificar un valor fijo si prefieres)
+      panelClass: 'custom-dialog-container' // Clase personalizada para el panel del popup
     });
   }
+  
+
+
+  openTechnicalSheetPopup() {
+    this.dialog.open(TechnicalPopupComponent, {
+    });
+  }
+  
 
 
 
