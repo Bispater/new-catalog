@@ -1,127 +1,142 @@
 .car-details-container {
-    position: relative;
-    height: 100vh;  
-    
-    .car-name {
-      background-color: rgba(255, 255, 255, 0.294);
-      padding: 15px 25px 15px 25px;
-      border-radius: 15px;
-      position: absolute;
-      top: 60px;
-      left: 60px;
-      font-size: 64px;
-      color: white;
-      text-transform: uppercase;
-      z-index: 10;
-      font-weight: 500;
-      text-shadow: 5px 5px 5px #000000b2;
-      font-family: "LouisBold", sans-serif;
-    }
-  
-    .carousel {
+  position: relative;
+  height: 100vh;
+
+  .car-name {
+    background-color: rgba(255, 255, 255, 0.294);
+    padding: 15px 25px;
+    border-radius: 15px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-size: 64px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 10;
+    font-weight: 500;
+    text-shadow: 5px 5px 5px #000000b2;
+    font-family: "LouisBold", sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .carousel {
+    height: 100%;
+    .carousel-inner {
       height: 100%;
-      .carousel-inner {
+      .carousel-item {
         height: 100%;
-        .carousel-item {
+        img {
           height: 100%;
-          img {
-            height: 100%;
-            object-fit: cover;
-          }
+          object-fit: cover;
         }
       }
     }
   }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    width: 7rem;
-    height: 10rem;
-    background-size: 120%;
-  }
-  
-  
-  
-  .button-container {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    z-index: 1000;
-    cursor: pointer;
-  }
-  
-  .btn-back-home {
-    background-color: #686868;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    box-shadow: 0 8px 16px 0 rgba(226, 226, 226, 0.2),
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 7rem;
+  height: 10rem;
+  background-size: 120%;
+}
+
+.button-container {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.btn-back-home {
+  background-color: #686868;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(226, 226, 226, 0.2),
     0 6px 20px 0 rgba(202, 202, 202, 0.795);
+}
+
+@media (max-width: 768px) {
+  .btn-group-container {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  
-  @media (max-width: 768px) {
-    .btn-group-container {
-      flex-direction: column;
-      align-items: center;
-    }
-    .btn {
-      margin-bottom: 10px;
-      width: 100%;
-    }
-  }
-  
-  
-  @media (max-width: 480px) {
-    .btn {
-      font-size: 16px;
-      padding: 10px 15px;
-    }
-  }
-  
-  .btn-responsive {
-    @media (max-width: 768px) {
-      width: 100%;
-    }
-    @media (max-width: 480px) {
-      font-size: 16px;
-      padding: 10px 15px;
-    }
-  }
-  
-  
-  .popup {
-    position: fixed;
-    top: 0;
-    left: 0;
+  .btn {
+    margin-bottom: 10px;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+
+.btn-responsive {
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (max-width: 480px) {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.popup-content {
+  position: relative;
+  width: 50%;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 50%;
+}
+
+.column p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .car-name {
+    display: flex;
+    justify-content: center;
+    font-size: 50px !important;
+    margin-left: -52px;
+    margin-right: 10px;
+    margin-top: -15px;
+    padding: 30px;
+    background-color: rgb(110 110 110);
+    border-radius: 0px;
+  } 
+
+  .btn-back-home {
     display: none;
   }
-  
-  .popup-content {
-    position: relative;
-    width: 50%;
-    margin: 40px auto;
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .column {
-    flex-basis: 50%;
-  }
-  
-  .column p {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  .column img {
-    width: 100%;
-    height: auto;
-  }
+}

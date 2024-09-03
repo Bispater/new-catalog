@@ -1,0 +1,44 @@
+.top-bar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    width: 100%;
+    background-color: gray;
+    font-weight: bold;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+
+    mat-icon {
+      font-size: 24px;
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  .title {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+  }
+}

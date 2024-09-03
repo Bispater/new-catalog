@@ -22,6 +22,7 @@ export class ColorizerComponent implements OnInit {
 
   ngOnInit(): void {
     this.car = this.carDataService.getCarData();
+    console.log("this car", this.car);
     this.colors = this.car.colors;
     this.selectedColor = this.colors[0];
     this.nameOfSelectedColor = this.colors[0].color;

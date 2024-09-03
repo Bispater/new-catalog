@@ -29,10 +29,10 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  background-color: #f7f7f7; // Fondo claro
-  padding: 20px; // Espacio interior
-  border-radius: 10px; // Borde redondeado
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Sombra suave
+  background-color: #f7f7f7; 
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   button {
     width: 40px;
@@ -140,4 +140,20 @@
 
 .car-image img.fade-out {
   opacity: 0; 
+}
+
+
+@media (max-width: 768px) {
+  .back-button {
+    display: none;
+  }
+
+  .color-buttons {
+    padding: 0px; 
+  }
+
+  .name-selected h3 {
+    font-size: 40px;
+    text-align: center;
+  }
 }

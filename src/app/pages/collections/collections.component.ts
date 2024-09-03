@@ -5,7 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { Router } from '@angular/router';
-// import { MetricsService } from '../../services/metrics.service';
+import { Listeners } from '../../utils/listeners';
 
 @Component({
   selector: 'app-collections',
@@ -17,6 +17,7 @@ import { Router } from '@angular/router';
 export class CollectionsComponent implements OnInit {
   title: string = '';
   selectedTabIndex: number = 0;
+  tabs = ['autos', 'pick-ups-&-vans', 'suvs', 'electricos'];
 
   autos = [
     {
@@ -334,35 +335,26 @@ export class CollectionsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute, 
     private router: Router,
-    // private services: MetricsService
+    private listener : Listeners,
     ) {}
 
   ngOnInit(): void {
+    this.listener.events(this);
+
     this.route.paramMap.subscribe((params) => {
       this.title = params.get('title') || '';
-      // this.services.sendMetrics(this.title);
-      const tab = this.title;
-      console.log('param name', tab);
-      switch (tab) {
-        case 'autos':
-          this.selectedTabIndex = 0;
-          break;
-        case 'pick-ups-&-vans':
-          console.log('param name case pick', tab);
-          this.selectedTabIndex = 1;
-          break;
-        case 'suvs':
-          this.selectedTabIndex = 2;
-          break;
-        case 'electricos':
-          this.selectedTabIndex = 3;
-          break;
-        default:
-          this.selectedTabIndex = 0;
-          break;
+      this.setSelectedTab(this.title);
+    });
+  }
+
+  setSelectedTab(tab: string): void {
+    this.tabs.forEach((tabItem, index) => {
+      if(tabItem == tab) {
+        this.selectedTabIndex = index;
       }
     });
   }
+
 
   goToProduct(car: any) {
     const carName = car.name.toLowerCase().replace(/\s+/g, '-');
@@ -371,5 +363,10 @@ export class CollectionsComponent implements OnInit {
 
   selectCar(car: any) {
     console.log('Car selected:', car);
+  }
+
+  onTabChange(event: any): void {
+    const tab = this.tabs[event.index];
+    this.router.navigate(['/collections', tab]);
   }
 }

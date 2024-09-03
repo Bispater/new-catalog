@@ -23,6 +23,11 @@
   </div>
 </div> -->
 
-
+<div class="top-bar">
+  <button class="back-button" (click)="navigateToHome()">
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+  <h1 class="title">Catálogo</h1>
+</div>
 <router-outlet></router-outlet>
 <app-bottom-menu [car]="car"></app-bottom-menu>

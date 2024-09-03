@@ -1,19 +1,20 @@
 <header class="top-bar">
     <div class="logo-container">
-        <a routerLink="/">
-            <img class="collection-logo" src="https://assets.bolder.run/themes/9169/logo-chevrolet.png?1692902093"
-                alt="Chevrolet Logo">
+        <a routerLink="/home">
+            <!-- <img class="collection-logo" src="https://assets.bolder.run/themes/9169/logo-chevrolet.png?1692902093"
+                alt="Chevrolet Logo"> -->
+                <img class="collection-logo" src="https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/primary-navigation-icons/logo-chevrolet-gris.png">
         </a>
     </div>
     <div class="button-container">
-        <a routerLink="/" class="btn-back-home">
+        <a routerLink="/home" class="btn-back-home">
             <span class="arrow-left"></span>
-            Volver al Home</a>
+            Volver</a>
     </div>
 </header>
 
 <div class="full-screen">
-    <mat-tab-group [selectedIndex]="selectedTabIndex">
+    <mat-tab-group [selectedIndex]="selectedTabIndex" (selectedTabChange)="onTabChange($event)">
         <mat-tab label="Autos" >
             <div class="tab-content">
                 <mat-card *ngFor="let car of autos"  class="car-card" (click)="goToProduct(car)">

@@ -1,28 +1,37 @@
 <div class="onstar-container">
-    <div class="button-container">
-        <a routerLink="/" class="btn-back-home">
-          <span class="arrow-left"></span>
-          Volver al Home
-        </a>
-      </div>
-      
-    <div class="onstar-left">
-      <img src="https://assets.bolder.run/themes/9169/on-star-izq.jpg?1692902095" alt="Left Image">
-      <button class="onstar-button" (click)="openVideo()">CONOCE ONSTAR</button>
-    </div>
-    <div class="onstar-right">
-      <img src="https://assets.bolder.run/themes/9169/on-star-der.jpg?1692902095" alt="Right Image">
-      <button class="onstar-button" (click)="openPopup()">VER PLANES</button>
-    </div>
+  <div class="button-container">
+    <a routerLink="/home" class="btn-back-home">
+      <span class="arrow-left"></span>
+      Volver al Home
+    </a>
   </div>
-  
-  <!-- Popup video -->
+
+  <div class="onstar-left">
+    <img
+      src="https://assets.bolder.run/themes/9169/on-star-izq.jpg?1692902095"
+      alt="Left Image"
+    />
+    <button class="onstar-button" (click)="openVideo()">CONOCE ONSTAR</button>
+  </div>
+  <div class="onstar-right">
+    <img
+      src="https://assets.bolder.run/themes/9169/on-star-der.jpg?1692902095"
+      alt="Right Image"
+    />
+    <button class="onstar-button" (click)="openPopup()">VER PLANES</button>
+  </div>
+</div>
+
+<!-- Popup video -->
 <div class="video-popup" *ngIf="isVideoOpen">
-    <div class="video-container">
-        <button class="close-button" (click)="closeVideo()">X</button>
-        <video controls autoplay>
-            <source src="https://bootic-public-downloads.s3.amazonaws.com/uploads/01_ONSTAR_CL_90s.mp4" type="video/mp4">
-            Tu navegador no soporta el video.
-        </video>
-    </div>
+  <div class="video-container">
+    <button class="close-button" (click)="closeVideo()">X</button>
+    <video controls autoplay>
+      <source
+        src="https://bootic-public-downloads.s3.amazonaws.com/uploads/01_ONSTAR_CL_90s.mp4"
+        type="video/mp4"
+      />
+      Tu navegador no soporta el video.
+    </video>
+  </div>
 </div>

@@ -1,39 +1,23 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
-
-import moment from 'moment';
+import { HttpClient, HttpClientModule, HttpHeaders } from '@angular/common/http';
+import { Component, Injectable, NgModule } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
+
 export class MetricsService {
   private apiUrl = 'https://rinnolab.cl/metrics/api/chevrolet/';
+  token = '2b6fa9689d2a7fd69608d1d36db04e2cf52cae9c';
+  headers = new HttpHeaders({
+    'Authorization': `Token ${this.token}`,
+    'Content-Type': 'application/json'
+  });
 
   constructor(private http: HttpClient) {}
 
-  sendMetrics(path: string) {
-    const userInfo = {
-      '@timestamp': moment().format(),
-      info: this.getBrowserInfo(),
-      path: path,
-    };
-    console.log("sending : ", userInfo);
-
-    return this.http.post(this.apiUrl, userInfo).subscribe(
-      response => {
-        console.log('Metrics sent successfully', response);
-      },
-      error => {
-        console.error('Error sending metrics', error);
-      }
-    );
-  }
-
-  private getBrowserInfo() {
-    return {
-      userAgent: navigator.userAgent,
-      platform: navigator.platform,
-      language: navigator.language,
-    };
+  sendMetrics(metrics: any): Observable<any> {
+    const body = { metrics: metrics };
+    return this.http.post(this.apiUrl, body, { headers: this.headers });
   }
 }

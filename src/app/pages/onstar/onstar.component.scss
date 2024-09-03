@@ -139,12 +139,12 @@ video {
 
 @media (max-width: 768px) {
   .onstar-container {
-    flex-direction: column; /* Los cuadros se apilan verticalmente */
+    flex-direction: column;
   }
 
   .onstar-left,
   .onstar-right {
-    width: 100%; /* Asegura que ambos cuadros ocupen el 100% del ancho */
+    width: 100%; 
   }
 
   .onstar-left img,
@@ -155,5 +155,9 @@ video {
   .onstar-button {
     padding: 0.8rem 1.6rem; 
     font-size: 2rem; 
+  }
+
+  .btn-back-home {
+    display: none;
   }
 }

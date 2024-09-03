@@ -8,7 +8,7 @@ import { ProductImgsComponent } from './components/product-imgs/product-imgs.com
 import { CompareProductComponent } from './pages/compare-product/compare-product.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'collections/:title', component: CollectionsComponent },
   { path: 'onstar', component: OnstarComponent },
   { 
@@ -23,5 +23,6 @@ export const routes: Routes = [
     { path: '', redirectTo: 'images', pathMatch: 'full' } 
     ]
   },  
+  { path: '**', redirectTo: 'home' } 
 ];
 
