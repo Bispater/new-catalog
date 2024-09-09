@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { CarDataService } from '../../services/dataService';
+import { CarService } from '../../services/dataService';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { RouterModule } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
+import { CarDataService } from '../../services/carService';
 
 interface Auto {
   name: string;
@@ -24,25 +25,36 @@ export class ProductImgsComponent implements OnInit {
   car: any;
 
   constructor(
+    private http: HttpClient,
     private carDataService: CarDataService,
-    private http: HttpClient
+    private carService: CarService,
+    private route: ActivatedRoute
   ) {}
 
   ngOnInit() {
-    // this.car = this.carDataService.getCarData();
-    this.car = history.state.car; 
-    console.log("this car historyy", this.car);
+    this.car = this.carDataService.getCar();
+    console.log('this car ?', this.car);
     if (!this.car) {
-      console.log("this img-car ? ", this.car);
-
-      // this.http
-      //   .get<{ autos: Auto[] }>('assets/carDetail.json')
-      //   .subscribe((data) => {
-      //     this.autos = data.autos;
-      //   });
-      //   this.car = this.autos;
-      //   console.log("this autos? ", this.autos);
+      const storedCar = localStorage.getItem('selectedCar');
+      if (storedCar) {
+        this.car = JSON.parse(storedCar);
+      } else {
+        // Manejar la falta de datos o redirigir al usuario
+        console.log('No car data found in localStorage');
+      }
     }
-    console.log('Car data in CarImagesComponent: ', this.car);
+
+    // this.car = history.state.car;
+    // console.log("this car historyy", this.car);
+    // if (!this.car) {
+    //   console.log("this img-car ? ", this.car);
+
+    // this.http
+    //   .get<{ autos: Auto[] }>('assets/carDetail.json')
+    //   .subscribe((data) => {
+    //     this.autos = data.autos;
+    //   });
+    //   this.car = this.autos;
+    //   console.log("this autos? ", this.autos);
   }
 }

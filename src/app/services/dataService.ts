@@ -1,16 +1,17 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-export class CarDataService {
-  private carData: any;
+export class CarService {
+  
+  public jsonUrl = 'assets/carDetail.json';
 
-  setCarData(car: any) {
-    this.carData = car;
-  }
+  constructor(private http: HttpClient) {}
 
-  getCarData() {
-    return this.carData;
+  getCars(): Observable<any> {
+    return this.http.get<any>(this.jsonUrl);
   }
 }

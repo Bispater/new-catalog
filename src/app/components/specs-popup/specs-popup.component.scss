@@ -1,62 +1,58 @@
 .featured-specs-wrapper {
-    .featured-specs-gallery {
-      display: flex;
-      overflow-x: auto;
-      scroll-behavior: smooth;
-  
-      .featured-spec-item {
-        flex: 0 0 auto;
-        width: 300px;
-        margin-right: 16px;
-        text-align: center;
-  
-        img {
-          width: 100%;
-          height: auto;
-        }
-  
-        p {
-          margin-top: 8px;
-          font-size: 16px;
-          font-weight: bold;
-        }
+  .featured-specs-gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+    .featured-spec-item {
+      flex: 0 0 auto;
+      width: 300px;
+      margin-right: 16px;
+      text-align: center;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      p {
+        margin-top: 8px;
+        font-size: 16px;
+        font-weight: bold;
       }
     }
   }
+}
 
-  .car-details-container {
-    position: relative;
-    background-color: #81818180;
-    padding: 20px;
+.car-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  background-color: #81818180;
+  padding: 20px;
+  color: #fff;
+
+  .carousel-caption {
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
     color: #fff;
-  
-    .carousel-inner img {
-      width: 100%;
-      height: auto;
-    }
-  
-    .carousel-caption {
-      bottom: 20px;
-      left: 0;
-      right: 0;
-      text-align: center;
-      color: #fff;
-    }
-  
-    .carousel-control-prev,
-    .carousel-control-next {
-      filter: invert(100%);
-    }
   }
-  
-  
-  .custom-dialog-container .mat-dialog-container {
-    background-color: rgba(255, 255, 255, 0.9); // Fondo blanco con 90% opacidad
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Sombra opcional para el panel
-  }
-  
 
-  .custom-dialog-container .cdk-overlay-backdrop {
-    background-color: rgba(0, 0, 0, 0.5); // Fondo oscuro con 50% opacidad
+  .carousel-control-prev,
+  .carousel-control-next {
+    filter: invert(100%);
   }
-  
+}
+
+.custom-dialog-container .mat-dialog-container {
+  background-color: rgba(255, 255, 255, 0.9); // Fondo blanco con 90% opacidad
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Sombra opcional para el panel
+}
+
+.custom-dialog-container .cdk-overlay-backdrop {
+  background-color: rgba(0, 0, 0, 0.5); // Fondo oscuro con 50% opacidad
+}

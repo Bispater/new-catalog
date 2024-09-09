@@ -2,7 +2,9 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { MatIconModule } from '@angular/material/icon';
-import { CarDataService } from '../../services/dataService';
+import { CarService } from '../../services/dataService';
+import { CarDataService } from '../../services/carService';
+import { Listeners } from '../../utils/listeners';
 
 @Component({
   selector: 'app-colorizer',
@@ -17,15 +19,29 @@ export class ColorizerComponent implements OnInit {
   colors: any;
   selectedColor: any;
   nameOfSelectedColor: any;
+  is_color: boolean = true;
 
-  constructor(private router: Router, private carDataService: CarDataService) {}
+  constructor(
+    private router: Router, 
+    private carDataService: CarDataService,
+    private listener: Listeners,
+    ) {}
 
   ngOnInit(): void {
-    this.car = this.carDataService.getCarData();
-    console.log("this car", this.car);
-    this.colors = this.car.colors;
-    this.selectedColor = this.colors[0];
-    this.nameOfSelectedColor = this.colors[0].color;
+    // this.listener.events(this);
+    this.car = this.carDataService.getCar();
+    console.log('this car', this.car);
+    if (this.car) {
+      this.colors = this.car.colors;
+      if (!this.colors) {
+        this.is_color = false;
+      } else {
+        this.selectedColor = this.colors[0];
+        this.nameOfSelectedColor = this.colors[0].color;
+      }
+    } else {
+      this.is_color = false;
+    }
   }
 
   changeColor(color: any) {

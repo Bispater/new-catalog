@@ -17,8 +17,9 @@
       <mat-menu #menu="matMenu" class="custom-menu">
         <button mat-menu-item [routerLink]="['images']">IMÁGENES</button>
         <button mat-menu-item [routerLink]="['colors']">COLORES</button>
-        <button mat-menu-item (click)="openPopupEspecify()">ESPECIFICACIONES DESTACADAS</button>
-        <button mat-menu-item [routerLink]="['onstar']">ONSTAR</button>
+        <button mat-menu-item [routerLink]="['specify']">ESPECIFICACIONES DESTACADAS</button>
+        <button mat-menu-item (click)="openPopupEspecify()">FINACIAMIENTO</button>
+        <!-- <button mat-menu-item [routerLink]="['onstar']">ONSTAR</button> -->
         <button mat-menu-item (click)="openTechnicalSheetPopup()">FICHA TÉCNICA</button>
         <button mat-menu-item [routerLink]="['compare']">COMPARACIÓN DE VERSIONES</button>
         <button mat-menu-item (click)="openPopup()">ENLACE QR</button>
@@ -29,12 +30,14 @@
     <div class="btn-group show-for-large-up" role="group">
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['images']">IMÁGENES</button>
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['colors']">COLORES</button>
-      <button type="button" class="btn btn-primary btn-responsive" (click)="openPopupEspecify()">ESPECIFICACIONES DESTACADAS</button>
+      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['specify']">ESPECIFICACIONES DESTACADAS</button>
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['onstar']">ONSTAR</button>
-      <button type="button" class="btn btn-primary btn-responsive" (click)="openTechnicalSheetPopup()">FICHA TÉCNICA</button>
+      <!-- <button type="button" class="btn btn-primary btn-responsive"  (click)="openPopupEspecify()">FINACIAMIENTO</button> -->
+      <!-- <button type="button" class="btn btn-primary btn-responsive" (click)="openTechnicalSheetPopup()">FICHA TÉCNICA</button> -->
+      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['technical']">FICHA TÉCNICA</button>
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['compare']">COMPARACIÓN DE VERSIONES</button>
       <button type="button" class="btn btn-primary btn-responsive" (click)="openPopup()">ENLACE QR</button>
-      <button type="button" class="btn btn-primary btn-responsive" (click)="openPopup()">COTIZA AQUÍ</button>
+      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['contact']">COTIZA AQUÍ</button>
     </div>
   </div>
   

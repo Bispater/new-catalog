@@ -3,10 +3,10 @@ import { Router, RouterModule } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
-import { CarDataService } from '../../services/dataService';
 import { QrPopupComponent } from '../qr-popup/qr-popup.component';
 import { SpecsPopupComponent } from '../specs-popup/specs-popup.component';
 import { TechnicalPopupComponent } from '../technical-popup/technical-popup.component';
+import { CarService } from '../../services/dataService';
 
 @Component({
   selector: 'app-bottom-menu',
@@ -23,12 +23,12 @@ export class BottomMenuComponent implements OnInit {
   constructor(
     private router: Router,
     public dialog: MatDialog,
-    private carDataService: CarDataService
+    private carDataService: CarService
   ) {}
 
   ngOnInit() {
     console.log('data from bootom menu : ', this.car);
-    this.carDataService.setCarData(this.car);
+    // this.carDataService.setCarData(this.car);
   }
 
   navigateTo(route: string) {

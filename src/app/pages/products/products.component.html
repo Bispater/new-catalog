@@ -29,5 +29,13 @@
   </button>
   <h1 class="title">Catálogo</h1>
 </div>
+
+<div class="button-container">
+  <a (click)="navigateBack()" class="btn-back-home">
+    <span class="arrow-left"></span>
+    Volver</a
+  >
+</div>
+
 <router-outlet></router-outlet>
 <app-bottom-menu [car]="car"></app-bottom-menu>

@@ -24,9 +24,12 @@
     display: inline-block;
     width: max-content;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       background-color: darken(#a6731f, 10%);
     }
+
   }
 }
 

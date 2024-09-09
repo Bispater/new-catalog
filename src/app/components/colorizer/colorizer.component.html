@@ -1,14 +1,19 @@
-<button class="btn back-button" [routerLink]="['home']">
-    <mat-icon matPrefix>arrow_back</mat-icon>
-    Volver
-  </button>
-<div class="car-image">
-    <img [src]="selectedColor.image" alt="Auto">
+<div *ngIf="is_color">
+
+  <div class="car-image">
+    <img [src]="selectedColor.image" alt="Auto" />
+  </div>
+  <div class="color-buttons">
+    <button *ngFor="let color of colors" (click)="changeColor(color)"></button>
+  </div>
+  <div class="name-selected">
+    <h3>{{ nameOfSelectedColor }}</h3>
+  </div>
 </div>
-<div class="color-buttons">
-    <button *ngFor="let color of colors" (click)="changeColor(color)">
-    </button>
-</div>
-<div class="name-selected">
-    <h3>{{nameOfSelectedColor}}</h3>
+
+
+<div *ngIf="!is_color">
+  <div class="color-buttons">
+    <h1 style="text-align: center; margin-top: 20px" >No hay colores para mostrar.</h1>
+  </div>
 </div>
