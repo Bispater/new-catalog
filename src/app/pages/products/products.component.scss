@@ -53,7 +53,7 @@
   z-index: 9999;
 }
 
-.btn-back-home {
+.btn-back {
   display: inline-block;
   color: #fff;
   background-color: #686868;
@@ -74,3 +74,23 @@
   -webkit-transform: rotate(135deg);
 }
 
+
+
+.button-container-home {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.btn-back-home {
+  background-color: #686868;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(226, 226, 226, 0.2),
+    0 6px 20px 0 rgba(202, 202, 202, 0.795);
+}

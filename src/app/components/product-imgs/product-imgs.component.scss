@@ -41,25 +41,6 @@
   background-size: 120%;
 }
 
-.button-container {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  z-index: 1000;
-  cursor: pointer;
-}
-
-.btn-back-home {
-  background-color: #686868;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  box-shadow: 0 8px 16px 0 rgba(226, 226, 226, 0.2),
-    0 6px 20px 0 rgba(202, 202, 202, 0.795);
-}
-
 @media (max-width: 768px) {
   .btn-group-container {
     flex-direction: column;

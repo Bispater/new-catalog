@@ -5,6 +5,7 @@
         "name": "Onix Sedán",
         "image": "https://r.btcdn.co/11643/original/782765-onix-sedan-azul-llantas-bitono-cl.png",
         "price": "$9.190.000",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782780-01-onix-sedan-ext-cl.jpg",
@@ -70,6 +71,7 @@
         "name": "Sail",
         "image": "https://r.btcdn.co/11643/original/913269-SAIL_ROJO.png",
         "price": "$9.990.000",
+        "on_star" : "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/912637-sail-1.jpg",
@@ -113,6 +115,7 @@
         "name": "Sail Hatchback",
         "image": "https://r.btcdn.co/11643/original/950693-SAIL-HB-LTZ-rojo-burdeo-metalico.webp",
         "price": "$10.990.000",
+        "on_star" : "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/950696-01-Sail-hb-ext.webp",
@@ -196,6 +199,7 @@
         "name": "Onix Turbo",
         "image": "https://r.btcdn.co/11643/original/782753-01-onix-turbo-3_4-blanco-cl.png",
         "price": "$12.990.000",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782757-05-onix-turbo-blanco-cl.jpg",
@@ -233,6 +237,7 @@
         "name": "N400",
         "image": "https://r.btcdn.co/11643/original/782681-n400-colorizer-blanco-cl.png",
         "price": "$10.898.100",
+        "on_star" : "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782683-GJCP0002000_Mercado-frente-tres-cuartos1.jpg",
@@ -280,6 +285,7 @@
         "name": "MONTANA",
         "image": "https://r.btcdn.co/11643/original/845924-01-montana-plata-gr2.png",
         "price": "$17.738.100",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/845929-01-montana-gallery.jpeg",
@@ -335,6 +341,7 @@
         "name": "COLORADO",
         "image": "https://r.btcdn.co/11643/original/953636-05-Colorado_HC_MY24_front_blanco_GAZ.webp",
         "price": "$33.308.100",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782673-GMCWH2004-PG007_PLACA_S10_HC_0264-M.jpg",
@@ -386,6 +393,7 @@
         "name": "SILVERADO",
         "image": "https://r.btcdn.co/11643/original/953666-01-Silverado_ZR2_front_azul_brillante_GLT.webp",
         "price": "$57.298.100",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/795540-22CHSLLD35169.jpg",
@@ -431,6 +439,7 @@
         "name": "Groove",
         "image": "https://r.btcdn.co/11643/original/782911-GROOVE_MCX_1XT26_LV3_LHD_GRQ.png",
         "price": "$11.990.000",
+        "on_star" : "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782917-04-groove-rojo-ext-cl.jpg",
@@ -474,6 +483,7 @@
         "name": "Spin",
         "image": "https://r.btcdn.co/11643/original/782874-05-spin-colorizer-plata-cl.png",
         "price": "$12.290.000",
+        "on_star" : "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782996-07-spin-ext-cl.jpg",
@@ -517,6 +527,7 @@
         "name": "Tracker",
         "image": "https://r.btcdn.co/11643/original/953682-06_Tracker-Premier-Front-acero_satinado_GR2.webp",
         "price": "$14.490.000",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782903-20CHTR37039.jpg",
@@ -568,6 +579,7 @@
         "name": "Captiva Turbo",
         "image": "https://r.btcdn.co/11643/original/953630-Captiva_XL_front-burdeo-metalico_J0U.webp",
         "price": "$15.490.000",
+        "on_star" : "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782849-06-captiva-turbo-gal-ext-cl.jpg",
@@ -615,6 +627,7 @@
         "name": "New Traverse",
         "image": "https://r.btcdn.co/11643/original/782950-02-traverse-colorizer-blanco-cl.png",
         "price": "$41.490.000",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782958-10-traverse-gal-ext-cl.jpg",
@@ -650,6 +663,7 @@
         "name": "Blazer",
         "image": "https://r.btcdn.co/11643/original/838461-rojo-blazer-2023.png",
         "price": "$44.990.000",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/838297-blazer-rs-2500x1000.jpeg",
@@ -713,6 +727,7 @@
         "name": "Tahoe",
         "image": "https://r.btcdn.co/11643/original/953674-07-Tahoe-Z71-Front-blanco-perla-G1W.webp",
         "price": "$67.990.000",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782833-01-tahoe-gal-ext-cl.jpg",
@@ -768,6 +783,7 @@
         "name": "Suburban",
         "image": "https://r.btcdn.co/11643/original/783018-03-suburban-colorizer-plata-met-perla-cl.png",
         "price": "$72.990.000",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782993-02-suburban-gal-ext-cl.jpg",
@@ -817,6 +833,7 @@
         "name": "BOLT EUV",
         "image": "https://r.btcdn.co/11643/original/915560-BOLT-EUV-1920x1080-azul-brillante-met.webp",
         "price": "$44.490.000",
+        "on_star" : "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/915575-01-bolt-galeria-ext.jpg",
