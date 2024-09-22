@@ -1,58 +1,44 @@
-.featured-specs-wrapper {
-  .featured-specs-gallery {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-
-    .featured-spec-item {
-      flex: 0 0 auto;
-      width: 300px;
-      margin-right: 16px;
-      text-align: center;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      p {
-        margin-top: 8px;
-        font-size: 16px;
-        font-weight: bold;
-      }
-    }
-  }
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("https://assets.bolder.run/themes/9169/ed-bg.jpg?1692902097");
 }
 
-.car-details-container {
+.carrousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 75%;
+  background-color: #81818180;
+}
+
+#carCarousel {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 100%;
-  background-color: #81818180;
-  padding: 20px;
-  color: #fff;
-
-  .carousel-caption {
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: #fff;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    filter: invert(100%);
-  }
 }
 
-.custom-dialog-container .mat-dialog-container {
-  background-color: rgba(255, 255, 255, 0.9); // Fondo blanco con 90% opacidad
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Sombra opcional para el panel
+.carousel-inner {
+  text-align: center;
 }
 
-.custom-dialog-container .cdk-overlay-backdrop {
-  background-color: rgba(0, 0, 0, 0.5); // Fondo oscuro con 50% opacidad
+.carousel-caption {
+  margin-top: 70px;
+  font-size: 50px;
+  font-family: "LouisBold", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 7rem;
+  height: 10rem;
+  background-size: 120%;
 }

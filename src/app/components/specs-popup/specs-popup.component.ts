@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { CarDataService } from '../../services/carService';
 
 @Component({
   selector: 'app-specs-popup',
@@ -9,22 +10,12 @@ import { Component } from '@angular/core';
   styleUrl: './specs-popup.component.scss'
 })
 export class SpecsPopupComponent {
-  public specs = [
-    {
-      img: 'https://r.btcdn.co/11643/original/783125-motor-turbo-115hp-torque-160nm.png',
-      text: 'Motor Turbo 116 CV Torque 160 NM*'
-    },
-    {
-      img: 'https://r.btcdn.co/11643/original/783123-maletero-500-l.png',
-      text: 'Maletero de 500L'
-    },
-    {
-      img: 'https://r.btcdn.co/11643/original/783124-maxima-calificacion-latinNcap.png',
-      text: '5 estrellas en LatinNCAP'
-    },
-    {
-      img: 'https://r.btcdn.co/11643/original/783126-6-airbgas.png',
-      text: '6 Airbags'
-    }
-  ];
+  car: any;
+
+  constructor(private carDataService: CarDataService) { }
+
+  ngOnInit(): void {
+    this.car = this.carDataService.getCar();
+  }
+
 }
