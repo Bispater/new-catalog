@@ -2,6 +2,60 @@
   display: none;
 }
 
+.button-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  padding-top: 40px;
+  margin-left: 80px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.button-back {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 37px;
+  right: 65px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.btn-back {
+  display: inline-block;
+  color: #fff;
+  background-color: #686868;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.arrow-left {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.btn-back-home {
+  background-color: #686868;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(226, 226, 226, 0.2),
+    0 6px 20px 0 rgba(202, 202, 202, 0.795);
+}
+
 @media (max-width: 768px) {
   .top-bar {
     width: 100%;
@@ -41,56 +95,4 @@
     color: white;
     font-weight: bold;
   }
-}
-
-.button-container {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  padding-top: 40px;
-  margin-left: 80px;
-  z-index: 9999;
-}
-
-.btn-back {
-  display: inline-block;
-  color: #fff;
-  background-color: #686868;
-  padding: 0.8rem 1.5rem;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 1rem;
-  line-height: 1.2;
-}
-
-.arrow-left {
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 5px;
-  margin-right: 10px;
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
-
-
-.button-container-home {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  z-index: 1000;
-  cursor: pointer;
-}
-
-.btn-back-home {
-  background-color: #686868;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  box-shadow: 0 8px 16px 0 rgba(226, 226, 226, 0.2),
-    0 6px 20px 0 rgba(202, 202, 202, 0.795);
 }

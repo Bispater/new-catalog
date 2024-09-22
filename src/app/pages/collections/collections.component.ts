@@ -36,7 +36,7 @@ export class CollectionsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.listener.events(this);
+    // this.listener.events(this);
 
     this.route.paramMap.subscribe((params) => {
       this.title = params.get('title') || '';

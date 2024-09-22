@@ -5,7 +5,7 @@
         "name": "Onix Sedán",
         "image": "https://r.btcdn.co/11643/original/782765-onix-sedan-azul-llantas-bitono-cl.png",
         "price": "$9.190.000",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782780-01-onix-sedan-ext-cl.jpg",
@@ -43,35 +43,43 @@
         "colors": [
           {
             "color": "Rojo Metálico",
-            "image": "https://r.btcdn.co/11643/original/782989-onix-sedan-rojo-llantas-bitono-cl.png"
+            "image": "https://r.btcdn.co/11643/original/782989-onix-sedan-rojo-llantas-bitono-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/01-images/colorizer/colorchips/onix-sedan-color-rojo.jpg"
           },
           {
             "color": "Azul Metálico",
-            "image": "https://r.btcdn.co/11643/original/782769-onix-sedan-azul-llantas-bitono-cl.png"
+            "image": "https://r.btcdn.co/11643/original/782769-onix-sedan-azul-llantas-bitono-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/01-images/colorizer/colorchips/onix-sedan-color-azul.jpg"
           },
           {
             "color": "Plata Metálico",
-            "image": "https://r.btcdn.co/11643/original/782766-onix-sedan-plata-llantas-bitono-cl.png"
+            "image": "https://r.btcdn.co/11643/original/782766-onix-sedan-plata-llantas-bitono-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/01-images/colorizer/colorchips/onix-sedan-color-plata-metalico.jpg"
           },
           {
             "color": "Blanco",
-            "image": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/04-onix-sedan-turbo-blanco.jpg?imwidth=1200"
+            "image": "https://r.btcdn.co/11643/original/782764-onix-sedan-blanco-llantas-bitono-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/01-images/colorizer/colorchips/onix-sedan-color-blanco.jpg"
           },
           {
             "color": "GRIS OSCURO METÁLICO",
-            "image": "https://r.btcdn.co/11643/original/953650-Onix-Sedan-gris-oscuro.webp"
+            "image": "https://r.btcdn.co/11643/original/953650-Onix-Sedan-gris-oscuro.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/gris-oscuro-ggv.jpg"
           },
           {
             "color": "Negro Metálico",
-            "image": "https://r.btcdn.co/11643/original/953651-Onix-Sedan-negro.webp"
+            "image": "https://r.btcdn.co/11643/original/953651-Onix-Sedan-negro.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-sedan/mov/colorizer/03-images/3-negro-gb8.jpg"
           }
-        ]
+        ],
+        "files": "https://r.btcdn.co/11643/original/927138-ft-onix-sedan.pdf?1707315735",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/onix-sedan"
       },
       {
         "name": "Sail",
         "image": "https://r.btcdn.co/11643/original/913269-SAIL_ROJO.png",
         "price": "$9.990.000",
-        "on_star" : "no",
+        "on_star": "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/912637-sail-1.jpg",
@@ -109,13 +117,42 @@
             "src": "https://r.btcdn.co/11643/original/912634-09-galeria-int-sail.jpg",
             "alt": "Sail - 09-galeria-int-sail.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/912617-SAIL-LT-PATENTE_blanco_1920x1080.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail/colorizer/colorchips/04-blanco.jpg"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/912618-SAIL-LT-PATENTE_plata-met_1920x1080.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail/colorizer/colorchips/05-plata-met.jpg"
+          },
+          {
+            "color": "Gris Metálico",
+            "image": "https://r.btcdn.co/11643/original/912619-SAIL-LT-PATENTE_gris-met_1920x1080.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail/colorizer/colorchips/02-gris-met.jpg"
+          },
+          {
+            "color": "Rojo",
+            "image": "https://r.btcdn.co/11643/original/912620-SAIL-LT-PATENTE_rojo_1920x1080.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail/colorizer/colorchips/01-rojo-met.jpg"
+          },
+          {
+            "color": "Azul Cielo Metálico",
+            "image": "https://r.btcdn.co/11643/original/912621-SAIL-LT-PATENTE_azul-cielo-met_1920x1080.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail/colorizer/colorchips/03-azul-cielo.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927128-sail-nb-ficha-tecnica.pdf?1707313738",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/sail"
       },
       {
         "name": "Sail Hatchback",
         "image": "https://r.btcdn.co/11643/original/950693-SAIL-HB-LTZ-rojo-burdeo-metalico.webp",
         "price": "$10.990.000",
-        "on_star" : "no",
+        "on_star": "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/950696-01-Sail-hb-ext.webp",
@@ -193,13 +230,47 @@
             "src": "https://r.btcdn.co/11643/original/950714-19-Sail-hb-ext.webp",
             "alt": "SAIL HATCHBACK - 19-Sail-hb-ext.webp"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Rojo Burdeo Metálico",
+            "image": "https://r.btcdn.co/11643/original/950695-SAIL-HB-LTZ-rojo-burdeo-metalico.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail-hb/01-images/colorizer/colorchips/01-rojo-met.jpg"
+          },
+          {
+            "color": "Gris Metálico",
+            "image": "https://r.btcdn.co/11643/original/950694-SAIL-HB-LTZ-gris-metalico.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail-hb/01-images/colorizer/colorchips/02-gris-met.jpg"
+          },
+          {
+            "color": "Azul Cielo Metálico",
+            "image": "https://r.btcdn.co/11643/original/950690-SAIL-HB-LTZ-azul-cielo.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail-hb/01-images/colorizer/colorchips/03-azul-cielo.jpg"
+          },
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/950689-SAIL-HB-LTZ-plata-metalico.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail-hb/01-images/colorizer/colorchips/04-blanco.jpg"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/950692-SAIL-HB-LTZ-blanco.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail-hb/01-images/colorizer/colorchips/05-plata-met.jpg"
+          },
+          {
+            "color": "Amarillo Metálico",
+            "image": "https://r.btcdn.co/11643/original/950691-SAIL-HB-LTZ-amarillo.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail-hb/01-images/colorizer/colorchips/06-amarillo-met-gcp.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/950735-ficha-tecnica-sail-hb-chile.pdf?1718310244",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/SAIL-copy-1714102720"
       },
       {
         "name": "Onix Turbo",
         "image": "https://r.btcdn.co/11643/original/782753-01-onix-turbo-3_4-blanco-cl.png",
         "price": "$12.990.000",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782757-05-onix-turbo-blanco-cl.jpg",
@@ -229,7 +300,41 @@
             "src": "https://r.btcdn.co/11643/original/783754-20CHONHB_Global_Interior_f01.jpg",
             "alt": "Onix Turbo - 20CHONHB_Global_Interior_f01.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/782751-01-onix-turbo-3_4-blanco-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-premier/colorizer/01-images/gaz-summit-white.png"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/782748-02-onix-turbo-3_4-plata-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-premier/colorizer/01-images/gan-blade-silver-metallic.png"
+          },
+          {
+            "color": "Negro Metálico",
+            "image": "https://r.btcdn.co/11643/original/782752-04-onix-turbo-3_4-negro-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-premier/colorizer/01-images/gb8-mosaic-black-metallic.png"
+          },
+          {
+            "color": "Rojo Metálico",
+            "image": "https://r.btcdn.co/11643/original/782749-03-onix-turbo-3_4-rojo-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-premier/colorizer/01-images/gx8-red-or-not-red.jpg"
+          },
+          {
+            "color": "Azul Metálico",
+            "image": "https://r.btcdn.co/11643/original/782750-05-onix-turbo-3_4-azul-cl.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-premier/colorizer/01-images/go8-seeker-met.jpg"
+          },
+          {
+            "color": "Gris Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953658-ONIX-HB-turbo-premier-gris-oscuro.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2021-onix-premier/colorizer/02-images/6-gris-oscuro-metalico-liso-gf8.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927145-ft-onix-turbo.pdf?1707316255",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/onix_premier"
       }
     ],
     "pickups": [
@@ -237,7 +342,7 @@
         "name": "N400",
         "image": "https://r.btcdn.co/11643/original/782681-n400-colorizer-blanco-cl.png",
         "price": "$10.898.100",
-        "on_star" : "no",
+        "on_star": "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782683-GJCP0002000_Mercado-frente-tres-cuartos1.jpg",
@@ -279,13 +384,22 @@
             "src": "https://r.btcdn.co/11643/original/782691-GJCP0002000_Bodega-interior-cajuela2.jpg",
             "alt": "N400 - GJCP0002000_Bodega-interior-cajuela2.jpg"
           }
-        ]
-      },      
+        ],
+        "colors": [
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/782682-n400-colorizer-blanco-cl.png",
+            "colorchip" : ""
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927129-ficha-tecnica-n400.pdf?1707314138",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/n400_max"
+      },
       {
         "name": "MONTANA",
         "image": "https://r.btcdn.co/11643/original/845924-01-montana-plata-gr2.png",
         "price": "$17.738.100",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/845929-01-montana-gallery.jpeg",
@@ -335,13 +449,52 @@
             "src": "https://r.btcdn.co/11643/original/845934-06-int-montana.jpeg",
             "alt": "MONTANA - 06-int-montana.jpeg"
           }
-        ]
-      },      
+        ],
+        "colors": [
+          {
+            "color": "Plata Navaja",
+            "image": "https://r.btcdn.co/11643/original/845917-01-montana-plata-gr2.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2023-montana/refresh/colorizer/colorchips/premier/gris.jpg"
+          },
+          {
+            "color": "Gris Metálico",
+            "image": "https://r.btcdn.co/11643/original/845918-02-montana-gris-met-gba.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2023-montana/refresh/colorizer/colorchips/premier/gris.jpg"
+          },
+          {
+            "color": "Verde Safari",
+            "image": "https://r.btcdn.co/11643/original/845922-03-montana-verde-safari-ggf.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2023-montana/refresh/colorizer/colorchips/premier/verde-oscuro.jpg"
+          },
+          {
+            "color": "Negro Oro",
+            "image": "https://r.btcdn.co/11643/original/845919-04-montana-negro-gb8.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2023-montana/refresh/colorizer/colorchips/premier/negro.jpg"
+          },
+          {
+            "color": "Blanco Cumbre",
+            "image": "https://r.btcdn.co/11643/original/845923-05-montana-blanco-gaz.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2023-montana/refresh/colorizer/colorchips/premier/blanco.jpg"
+          },
+          {
+            "color": "Azul Eclipse",
+            "image": "https://r.btcdn.co/11643/original/845921-06-montana-azul-g5k.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2023-montana/refresh/colorizer/colorchips/premier/azul.jpg"
+          },
+          {
+            "color": "Rojo Chile",
+            "image": "https://r.btcdn.co/11643/original/845920-07-montana-rojo-gvk.png",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2023-montana/refresh/colorizer/colorchips/premier/rojo.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927136-ft-montana.pdf?1707315495",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/montana"
+      },
       {
         "name": "COLORADO",
         "image": "https://r.btcdn.co/11643/original/953636-05-Colorado_HC_MY24_front_blanco_GAZ.webp",
         "price": "$33.308.100",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782673-GMCWH2004-PG007_PLACA_S10_HC_0264-M.jpg",
@@ -387,13 +540,47 @@
             "src": "https://r.btcdn.co/11643/original/782678-S10_HC_0110.jpg",
             "alt": "COLORADO - S10_HC_0110.jpg"
           }
-        ]
-      },      
+        ],
+        "colors": [
+          {
+            "color": "Rojo",
+            "image": "https://r.btcdn.co/11643/original/953648-07-Colorado_HC_MY24_front_rojo.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2024-myr-colorado/2-colorizer/colorchips/gnt_rojo-metalico.jpg"
+          },
+          {
+            "color": "Azul Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953645-06-Colorado_HC_MY24_front_azul_oscuro_G5K.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2024-myr-colorado/2-colorizer/colorchips/g5k_azul-metalico.jpg"
+          },
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/953637-05-Colorado_HC_MY24_front_blanco_GAZ.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2024-myr-colorado/2-colorizer/colorchips/gaz_blanco-metalico.jpg"
+          },
+          {
+            "color": "Negro",
+            "image": "https://r.btcdn.co/11643/original/953647-04-Colorado_HC_MY24_front_negro_GB8.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2024-myr-colorado/2-colorizer/colorchips/gb8_negro-metalico.jpg"
+          },
+          {
+            "color": "Gris Volcano",
+            "image": "https://r.btcdn.co/11643/original/953649-02-Colorado_HC_MY24_front_gris_petroleo_GOE.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2024-myr-colorado/2-colorizer/colorchips/gbd_gris-volcano.jpg"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/953644-01-Colorado_HC_MY24_front_plata_metalico_GR2.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/2024-myr-colorado/2-colorizer/colorchips/gr2_plata-osc-met.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/950527-Ficha_Te%CC%81cnica_Colorado_Chile_Abril_24.pdf?1718220840",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/colorado"
+      },
       {
         "name": "SILVERADO",
         "image": "https://r.btcdn.co/11643/original/953666-01-Silverado_ZR2_front_azul_brillante_GLT.webp",
         "price": "$57.298.100",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/795540-22CHSLLD35169.jpg",
@@ -431,15 +618,59 @@
             "src": "https://r.btcdn.co/11643/original/789229-int1.jpg",
             "alt": "SILVERADO - int1.jpg"
           }
-        ]
-      }      
+        ],
+        "colors": [
+          {
+            "color": "Azul Brillante",
+            "image": "https://r.btcdn.co/11643/original/953667-01-Silverado_ZR2_front_azul_brillante_GLT.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/drp-silverado/colorizer/new-colorchips/azul-brillante-met.jpg"
+          },
+          {
+            "color": "Azul Metálico",
+            "image": "https://r.btcdn.co/11643/original/953665-02-Silverado_ZR2_front_azul_metalico_GA0.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/drp-silverado/colorizer/new-colorchips/azul-metalico.jpg"
+          },
+          {
+            "color": "Blanco Metálico",
+            "image": "https://r.btcdn.co/11643/original/953668-03-Silverado_ZR2_front_blanco_metalico_GAZ.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/drp-silverado/colorizer/new-colorchips/blanco-metalico.jpg"
+          },
+          {
+            "color": "Gris Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953673-04-Silverado_ZR2_front_gris_oscuro_metalico_G6M.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/drp-silverado/colorizer/new-colorchips/gris-oscuro-metalico.jpg"
+          },
+          {
+            "color": "Gris Pizarra",
+            "image": "https://r.btcdn.co/11643/original/953672-05-Silverado-ZR2-front-gris-pizarra.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/drp-silverado/colorizer/new-colorchips/gris-pizarra.jpg"
+          },
+          {
+            "color": "Negro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953669-06-Silverado_ZR2_front_negro_metalico_GBA.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/drp-silverado/colorizer/new-colorchips/negro-metalico.jpg"
+          },
+          {
+            "color": "Plata",
+            "image": "https://r.btcdn.co/11643/original/953670-07-Silverado_ZR2_front_plata_GXD.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/drp-silverado/colorizer/new-colorchips/plata-metalico.jpg"
+          },
+          {
+            "color": "Rojo Brillante",
+            "image": "https://r.btcdn.co/11643/original/953671-08-Silverado_ZR2_front_rojo_brillante_G7C.webp",
+            "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/pickups-and-trucks/drp-silverado/colorizer/new-colorchips/rojo-brillante.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927146-ficha-tecnica-silverado.pdf?1707316307",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/silverado"
+      }
     ],
     "suvs": [
       {
         "name": "Groove",
         "image": "https://r.btcdn.co/11643/original/782911-GROOVE_MCX_1XT26_LV3_LHD_GRQ.png",
         "price": "$11.990.000",
-        "on_star" : "no",
+        "on_star": "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782917-04-groove-rojo-ext-cl.jpg",
@@ -477,13 +708,42 @@
             "src": "https://r.btcdn.co/11643/original/782918-01-groove-consola-int-cl.jpg",
             "alt": "Groove - 01-groove-consola-int-cl.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "ROJO BURDEO METÁLICO",
+            "image": "https://r.btcdn.co/11643/original/782908-GROOVE_MCX_1XT26_LV3_LHD_GRQ.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/groove/2024/colorizer/colorchip/1-grq-rojo.jpg"
+          },
+          {
+            "color": "PLATA METÁLICO",
+            "image": "https://r.btcdn.co/11643/original/782906-GROOVE_MCX_1XT26_LV3_LHD_77U.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/groove/2024/colorizer/colorchip/4-gan-plata-metalico.jpg"
+          },
+          {
+            "color": "GRIS METÁLICO",
+            "image": "https://r.btcdn.co/11643/original/782910-GROOVE_MCX_1XT26_LV3_LHD_GRIS.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/groove/2024/colorizer/colorchip/2-77u-gris%20metalico.jpg"
+          },
+          {
+            "color": "BLANCO",
+            "image": "https://r.btcdn.co/11643/original/782909-GROOVE_MCX_1XT26_LV3_LHD_45U.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/groove/2024/colorizer/colorchip/3-45u-blanco.jpg"
+          },
+          {
+            "color": "AZUL CIELO METÁLICO",
+            "image": "https://r.btcdn.co/11643/original/782907-GROOVE_MCX_1XT26_LV3_LHD_GGB.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/groove/2024/colorizer/colorchip/5-ggb-azul-cielo.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927137-ficha-tecnica-groove.pdf?1707315644",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/groove"
       },
       {
         "name": "Spin",
         "image": "https://r.btcdn.co/11643/original/782874-05-spin-colorizer-plata-cl.png",
         "price": "$12.290.000",
-        "on_star" : "no",
+        "on_star": "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782996-07-spin-ext-cl.jpg",
@@ -521,13 +781,47 @@
             "src": "https://r.btcdn.co/11643/original/782887-05-spin-int-cl.jpg",
             "alt": "Spin - 05-spin-int-cl.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Plata Oscuro",
+            "image": "https://r.btcdn.co/11643/original/782877-03-spin-colorizer-gris-oscuro-cl.png",
+            "colorchip" : ""
+          },
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/782872-01-spin-colorizer-blanco-cl.png",
+            "colorchip" : ""
+          },
+          {
+            "color": "Azul",
+            "image": "https://r.btcdn.co/11643/original/782876-04-spin-colorizer-azul-osc-cl.png",
+            "colorchip" : ""
+          },
+          {
+            "color": "Grafito",
+            "image": "https://r.btcdn.co/11643/original/782873-02-spin-colorizer-grafito-cl.png",
+            "colorchip" : ""
+          },
+          {
+            "color": "Negro",
+            "image": "https://r.btcdn.co/11643/original/782871-06-spin-colorizer-negro-cl.png",
+            "colorchip" : ""
+          },
+          {
+            "color": "Plata",
+            "image": "https://r.btcdn.co/11643/original/782878-05-spin-colorizer-plata-cl.png",
+            "colorchip" : ""
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927149-ficha-tecnica-spin.pdf?1707316428",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/spin"
       },
       {
         "name": "Tracker",
         "image": "https://r.btcdn.co/11643/original/953682-06_Tracker-Premier-Front-acero_satinado_GR2.webp",
         "price": "$14.490.000",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782903-20CHTR37039.jpg",
@@ -573,13 +867,57 @@
             "src": "https://r.btcdn.co/11643/original/782904-21CHTRGE45041.jpg",
             "alt": "Tracker - 21CHTRGE45041.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Acero Satinado",
+            "image": "https://r.btcdn.co/11643/original/953683-06_Tracker-Premier-Front-acero_satinado_GR2.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2021-nueva-tracker-turbo/refresh/2023/02-colorizer/colorchips/01-acero-satinado.jpg"
+          },
+          {
+            "color": "Azul Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953684-02_Tracker-Premier-Front-azul-oscuro-metalico_G5K.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2021-nueva-tracker-turbo/refresh/2023/02-colorizer/colorchips/02-azul-oscuro-metalico.jpg"
+          },
+          {
+            "color": "Rojo Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953685-03_Tracker-Premier-Front-rojo-oscuro-metalico_GVK.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2021-nueva-tracker-turbo/refresh/2023/02-colorizer/colorchips/03-rojo-oscuro-metalico.jpg"
+          },
+          {
+            "color": "Negro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953686-04_Tracker-Premier-Front-negro-metalico_GB8.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2021-nueva-tracker-turbo/refresh/2023/02-colorizer/colorchips/04-negro-metalico.jpg"
+          },
+          {
+            "color": "Blanco Metálico",
+            "image": "https://r.btcdn.co/11643/original/953687-05_Tracker-Premier-Front-blanco-metalico_GAZ.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2021-nueva-tracker-turbo/refresh/2023/02-colorizer/colorchips/05-blanco-metalico.jpg"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/953690-01_Tracker-Premier-Front-plata-oscuro-metalico_GAN.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2021-nueva-tracker-turbo/refresh/2023/02-colorizer/colorchips/06-plata-metalico.jpg"
+          },
+          {
+            "color": "Gris Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953689-08_Tracker-Premier-Front-gris-oscuro-metalico_GGV.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2021-nueva-tracker-turbo/refresh/2023/02-colorizer/colorchips/07-gris-oscuro-metalico.jpg"
+          },
+          {
+            "color": "Plata Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953690-01_Tracker-Premier-Front-plata-oscuro-metalico_GAN.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2021-nueva-tracker-turbo/02-intro/colorizer/colorchips/plata-osc-met-colorchip.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927134-ft-tracker-rs.pdf?1707315287",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/all_new_tracker"
       },
       {
         "name": "Captiva Turbo",
         "image": "https://r.btcdn.co/11643/original/953630-Captiva_XL_front-burdeo-metalico_J0U.webp",
         "price": "$15.490.000",
-        "on_star" : "no",
+        "on_star": "no",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782849-06-captiva-turbo-gal-ext-cl.jpg",
@@ -621,13 +959,37 @@
             "src": "https://r.btcdn.co/11643/original/782856-02-captiva-turbo-gal-int-cl.jpg",
             "alt": "Captiva Turbo - 02-captiva-turbo-gal-int-cl.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Burdeos Metálico",
+            "image": "https://r.btcdn.co/11643/original/953631-Captiva_XL_front-burdeo-metalico_J0U.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2024-captiva/colorizer/colorchip/02-captiva-rojo.jpg"
+          },
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/953632-Captiva_XL_front-blanco_GSB.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2024-captiva/colorizer/colorchip/03-captiva-blanco.jpg"
+          },
+          {
+            "color": "Negro",
+            "image": "https://r.btcdn.co/11643/original/953634-Captiva_XL_front-negro_GBA.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2024-captiva/colorizer/colorchip/04-captiva-negro.jpg"
+          },
+          {
+            "color": "Gris Oscuro",
+            "image": "https://r.btcdn.co/11643/original/953633-Captiva_XL_front-gris-oscuro_GIR.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2024-captiva/colorizer/colorchip/01-captiva-gris.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927148-ficha-captiva.pdf?1707316378",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/captiva"
       },
       {
         "name": "New Traverse",
         "image": "https://r.btcdn.co/11643/original/782950-02-traverse-colorizer-blanco-cl.png",
         "price": "$41.490.000",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782958-10-traverse-gal-ext-cl.jpg",
@@ -657,13 +1019,37 @@
             "src": "https://r.btcdn.co/11643/original/782960-07-traverse-gal-int-cl.jpg",
             "alt": "New Traverse - 07-traverse-gal-int-cl.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/782952-03-traverse-colorizer-plata-cl.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2022-traverse/02-colorizer/exterior/colorchips/chevrolet-traverse-color-gris-metalico.jpg"
+          },
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/782954-02-traverse-colorizer-blanco-cl.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2022-traverse/02-colorizer/exterior/colorchips/chevrolet-traverse-color-blanco.jpg"
+          },
+          {
+            "color": "Negro",
+            "image": "https://r.btcdn.co/11643/original/782951-01-traverse-colorizer-negro-cl.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2022-traverse/02-colorizer/exterior/colorchips/chevrolet-traverse-color-negro.jpg"
+          },
+          {
+            "color": "Rojo",
+            "image": "https://r.btcdn.co/11643/original/782953-04-traverse-colorizer-rojo-cl.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2022-traverse/02-colorizer/exterior/colorchips/chevrolet-traverse-color-rojo.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927131-ficha-tecnica-traverse.pdf?1707315045",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/traverse"
       },
       {
         "name": "Blazer",
         "image": "https://r.btcdn.co/11643/original/838461-rojo-blazer-2023.png",
         "price": "$44.990.000",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/838297-blazer-rs-2500x1000.jpeg",
@@ -721,13 +1107,42 @@
             "src": "https://r.btcdn.co/11643/original/838300-pop-up-tech-blazer-rs-04.jpeg",
             "alt": "Blazer - pop-up-tech-blazer-rs-04.jpeg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Rojo Brillante",
+            "image": "https://r.btcdn.co/11643/original/838451-04-rojo-blazer-rs-2023.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/rojo-brillante.jpg"
+          },
+          {
+            "color": "Gris Metálico",
+            "image": "https://r.btcdn.co/11643/original/838449-02-gris-met-blazer-rs-2023.png",
+            "colorchip" : "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/plata-met.jpg"
+          },
+          {
+            "color": "Blanco Perla",
+            "image": "https://r.btcdn.co/11643/original/838448-03-blanco-blazer-rs-2023.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/blanco-perla.jpg"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/838450-01-plata-met-blazer-rs-2023.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/plata-met.jpg"
+          },
+          {
+            "color": "Negro",
+            "image": "https://r.btcdn.co/11643/original/838447-05-negro-blazer-rs-2023.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/negro.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927135-ficha-tecnica-blazer.pdf?1707315411",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/blazer"
       },
       {
         "name": "Tahoe",
         "image": "https://r.btcdn.co/11643/original/953674-07-Tahoe-Z71-Front-blanco-perla-G1W.webp",
         "price": "$67.990.000",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782833-01-tahoe-gal-ext-cl.jpg",
@@ -777,13 +1192,52 @@
             "src": "https://r.btcdn.co/11643/original/782840-21CHTA45029_v3.jpg",
             "alt": "Tahoe - 21CHTA45029_v3.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Blanco Perla",
+            "image": "https://r.btcdn.co/11643/original/953675-07-Tahoe-Z71-Front-blanco-perla-G1W.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/refresh-tahoe/intro/colorizer/colorchips/blanco-perla.jpg"
+          },
+          {
+            "color": "Gris Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953676-03-Tahoe-Z71-Front-gris-osc-met-G6M.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/refresh-tahoe/intro/colorizer/colorchips/gris-osc-met.jpg"
+          },
+          {
+            "color": "Negro",
+            "image": "https://r.btcdn.co/11643/original/953677-02-Tahoe-Z71-Front-negro-GBA.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/refresh-tahoe/intro/colorizer/colorchips/negro.jpg"
+          },
+          {
+            "color": "Champaña Metálico",
+            "image": "https://r.btcdn.co/11643/original/953678-04-Tahoe-Z71-Front-champan%CC%83a-met-GJW.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/refresh-tahoe/intro/colorizer/colorchips/champana-met.jpg"
+          },
+          {
+            "color": "Azul Oscuro Metálico",
+            "image": "https://r.btcdn.co/11643/original/953679-08-Tahoe-Z71-Front-azul-osc-met-GLU.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/refresh-tahoe/intro/colorizer/colorchips/azul-osc-met.jpg"
+          },
+          {
+            "color": "Rojo Metálico",
+            "image": "https://r.btcdn.co/11643/original/953680-06-Tahoe-Z71-Front-rojo-met_GNT.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/refresh-tahoe/intro/colorizer/colorchips/rojo-met.jpg"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/953681-01-Tahoe-Z71-Front-plata-osc-met-GXD.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/refresh-tahoe/intro/colorizer/colorchips/plata-met.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927151-ficha-tecnica-suburban.pdf?1707316657",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/tahoe"
       },
       {
         "name": "Suburban",
         "image": "https://r.btcdn.co/11643/original/783018-03-suburban-colorizer-plata-met-perla-cl.png",
         "price": "$72.990.000",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/782993-02-suburban-gal-ext-cl.jpg",
@@ -825,7 +1279,26 @@
             "src": "https://r.btcdn.co/11643/original/782818-01-suburban-gal-int-cl.jpg",
             "alt": "Suburban - 01-suburban-gal-int-cl.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Blanco Perla",
+            "image": "https://r.btcdn.co/11643/original/783014-01-suburban-colorizer-blanco-perla-cl-copy.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/suburban-refresh/colorizer/colorchip/blanco-perla.jpg"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/783013-03-suburban-colorizer-plata-met-perla-cl.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/suburban-refresh/colorizer/colorchip/plata-met.jpg"
+          },
+          {
+            "color": "Negro",
+            "image": "https://r.btcdn.co/11643/original/783011-04-suburban-colorizer-negro-cl.png",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/suburban-refresh/colorizer/colorchip/negro.jpg"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927151-ficha-tecnica-suburban.pdf?1707316657",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/suburban"
       }
     ],
     "electrics": [
@@ -833,7 +1306,7 @@
         "name": "BOLT EUV",
         "image": "https://r.btcdn.co/11643/original/915560-BOLT-EUV-1920x1080-azul-brillante-met.webp",
         "price": "$44.490.000",
-        "on_star" : "yes",
+        "on_star": "yes",
         "images": [
           {
             "src": "https://r.btcdn.co/11643/original/915575-01-bolt-galeria-ext.jpg",
@@ -871,10 +1344,65 @@
             "src": "https://r.btcdn.co/11643/original/915568-05-bolt-galeria-int.jpg",
             "alt": "BOLT EUV - 05-bolt-galeria-int.jpg"
           }
-        ]
+        ],
+        "colors": [
+          {
+            "color": "Azul Brillante Metalizado",
+            "image": "https://r.btcdn.co/11643/original/915567-BOLT-EUV-1920x1080-azul-brillante-met.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/electric-vehicles/2024-bolt-euv/colorizer/colorchips/bolt-euv-azul-metalizado.jpg"
+          },
+          {
+            "color": "Blanco",
+            "image": "https://r.btcdn.co/11643/original/915566-BOLT-EUV-1920x1080-blanco.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/electric-vehicles/2024-bolt-euv/colorizer/colorchips/bolt-euv-blanco-gaz.jpg"
+          },
+          {
+            "color": "Azul Cielo Metálico",
+            "image": "https://r.btcdn.co/11643/original/915563-BOLT-EUV-1920x1080-azul-cielo.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/electric-vehicles/2024-bolt-euv/colorizer/colorchips/bolt-euv-cielo-met-g7x.jpg"
+          },
+          {
+            "color": "Gris Grafito Metálico",
+            "image": "https://r.btcdn.co/11643/original/915562-BOLT-EUV-1920x1080-gris-grafito-met.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/electric-vehicles/2024-bolt-euv/colorizer/colorchips/bolt-euv-gris-grafiti-met-grc.jpg"
+          },
+          {
+            "color": "Negro Metálico",
+            "image": "https://r.btcdn.co/11643/original/915564-BOLT-EUV-1920x1080-negro.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/electric-vehicles/2024-bolt-euv/colorizer/colorchips/bolt-euv-negro.jpg"
+          },
+          {
+            "color": "Plata Metálico",
+            "image": "https://r.btcdn.co/11643/original/915565-BOLT-EUV-1920x1080-plata-met.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/electric-vehicles/2024-bolt-euv/colorizer/colorchips/bolt-euv-plata-metalico.jpg"
+          },
+          {
+            "color": "Rojo Metálico",
+            "image": "https://r.btcdn.co/11643/original/915561-BOLT-EUV-1920x1080-rojo.webp",
+            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/electric-vehicles/2024-bolt-euv/colorizer/colorchips/bolt-euv-rojo-gnt.jpg"
+          }
+        ],
+        "specs" : [
+          {
+            "img": "https://r.btcdn.co/11643/original/917407-iconos_Bolt_MH-01-blanco.png",
+            "text": "Freno Regenerativo"
+          },
+          {
+            "img": "https://r.btcdn.co/11643/original/917405-iconos_Bolt_MH-02-blanco.png",
+            "text": "ONSTAR 24/7 Y WIFI INTEGRADO"
+          },
+          {
+            "img": "https://r.btcdn.co/11643/original/917406-iconos-Bolt-MH-03-blanco.png",
+            "text": "AUTONOMÍA DE 456 km WLPT"
+          },
+          {
+            "img": "https://r.btcdn.co/11643/original/917404-iconos-Bolt-MH-04-blanco.png",
+            "text" : "10 AIRBAGS"
+          }
+        ],
+        "files": "https://r.btcdn.co/11643/original/927150-ft-bolt-euv-cl.pdf?1707316508",
+        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/bolt"
       }
     ]
   }
 }
-
-

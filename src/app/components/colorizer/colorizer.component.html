@@ -1,16 +1,19 @@
-<div *ngIf="is_color">
-
+<div class="colorizer-content" *ngIf="is_color">
   <div class="car-image">
     <img [src]="selectedColor.image" alt="Auto" />
   </div>
-  <div class="color-buttons">
-    <button *ngFor="let color of colors" (click)="changeColor(color)"></button>
+    <div class="color-buttons">
+    <button *ngFor="let color of colors" 
+            (click)="changeColor(color)" 
+            [ngStyle]="{'background-image': 'url(' + color.colorchip + ')', 'background-size': 'cover'}"
+            [title]="color.color">
+    </button>
   </div>
+  
   <div class="name-selected">
     <h3>{{ nameOfSelectedColor }}</h3>
   </div>
 </div>
-
 
 <div *ngIf="!is_color">
   <div class="color-buttons">

@@ -25,7 +25,7 @@ export class ProductsComponent {
   ) {}
 
   ngOnInit() {
-    this.listener.events(this);
+    // this.listener.events(this);
     // this.route.paramMap.subscribe(params => {
     //   const carName = params.get('name');
     //   this.car = history.state.car; 
@@ -34,7 +34,7 @@ export class ProductsComponent {
     this.car = this.carDataService.getCar();
     this.carDataService.setCar(this.car);
     localStorage.setItem('selectedCar', JSON.stringify(this.car));
-    console.log("this car ? service", this.car);  
+    // console.log("this car ? service", this.car);  
     this.route.queryParams.subscribe(params => {
       this.collection = params['collection'];
     });

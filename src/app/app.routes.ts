@@ -9,23 +9,25 @@ import { CompareProductComponent } from './pages/compare-product/compare-product
 import { SpecsPopupComponent } from './components/specs-popup/specs-popup.component';
 import { TechnicalSheetComponent } from './pages/technical-sheet/technical-sheet.component';
 import { ContactFormComponent } from './pages/contact-form/contact-form.component';
+import { metricsGuard } from './services/metrics.guard';
 
 export const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'collections/:title', component: CollectionsComponent },
-  { path: 'onstar', component: OnstarComponent },
+  { path: 'home', component: HomeComponent},
+  { path: 'collections/:title', component: CollectionsComponent, canActivate: [metricsGuard] },
+  { path: 'onstar', component: OnstarComponent, canActivate: [metricsGuard]  },
   { 
     path: 'products/:name', 
     component: ProductsComponent,
+    canActivate: [metricsGuard],  
     children: [
-      { path: 'colors', component: ColorizerComponent },
-      { path: 'images', component: ProductImgsComponent }, 
-      { path: 'specify', component: SpecsPopupComponent },
-      { path: 'technical', component: TechnicalSheetComponent },
-      { path: 'onstar', component: OnstarComponent },
-      { path: 'compare', component: CompareProductComponent },
-      { path: 'contact', component: ContactFormComponent },
-    { path: '', redirectTo: 'images', pathMatch: 'full' } 
+      { path: 'images', component: ProductImgsComponent, canActivate: [metricsGuard] },
+      { path: 'colors', component: ColorizerComponent, canActivate: [metricsGuard] },
+      { path: 'specify', component: SpecsPopupComponent, canActivate: [metricsGuard] },
+      { path: 'technical', component: TechnicalSheetComponent, canActivate: [metricsGuard] },
+      { path: 'onstar', component: OnstarComponent, canActivate: [metricsGuard] },
+      { path: 'compare', component: CompareProductComponent, canActivate: [metricsGuard] },
+      { path: 'contact', component: ContactFormComponent, canActivate: [metricsGuard] },
+      { path: '', redirectTo: 'images', pathMatch: 'full' }
     ]
   },  
   { path: '**', redirectTo: 'home' } 

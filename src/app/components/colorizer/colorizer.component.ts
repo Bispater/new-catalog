@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { Router, RouterModule } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { MatIconModule } from '@angular/material/icon';
 import { CarService } from '../../services/dataService';
 import { CarDataService } from '../../services/carService';
@@ -25,12 +25,13 @@ export class ColorizerComponent implements OnInit {
     private router: Router, 
     private carDataService: CarDataService,
     private listener: Listeners,
+    private route: ActivatedRoute,
     ) {}
 
   ngOnInit(): void {
     // this.listener.events(this);
     this.car = this.carDataService.getCar();
-    console.log('this car', this.car);
+    // console.log('this car', this.car);
     if (this.car) {
       this.colors = this.car.colors;
       if (!this.colors) {

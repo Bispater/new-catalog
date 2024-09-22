@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
     }
 
   ngOnInit(): void {
-    this.listener.events(this);
+    // this.listener.events(this);
   }
 
   navigateToCollection(collectionName: string) {

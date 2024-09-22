@@ -33,7 +33,7 @@ export class ProductImgsComponent implements OnInit {
 
   ngOnInit() {
     this.car = this.carDataService.getCar();
-    console.log('this car ?', this.car);
+    // console.log('this car ?', this.car);
     if (!this.car) {
       const storedCar = localStorage.getItem('selectedCar');
       if (storedCar) {

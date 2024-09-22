@@ -27,13 +27,13 @@ export class BottomMenuComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    console.log('data from bootom menu : ', this.car);
+    // console.log('data from bootom menu : ', this.car);
     // this.carDataService.setCarData(this.car);
   }
 
   navigateTo(route: string) {
-    console.log('navigation to ', route);
-    console.log('and data ', this.car);
+    // console.log('navigation to ', route);
+    // console.log('and data ', this.car);
     this.router.navigate([`/${route}`], { state: { data: this.car } });
   }
 

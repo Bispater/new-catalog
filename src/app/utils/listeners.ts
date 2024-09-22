@@ -21,42 +21,38 @@ export class Listeners {
       section = url_splited.length > 0 ? url_splited[1] : null;
     } catch (ex) {}
 
-    // get url params
     let event: any = null;
-    if (param.route) {
-      param.route.queryParams.subscribe((params: any) => {
-        let subsidiaryId = params['subsidiary_id'];
-        let subsidiaryName = params['subsidiary_name'];
-        let origin = params['origin'];
-        let event = params['event'];
 
-        if (subsidiaryId) {
-          localStorage.setItem('subsidiary_id', subsidiaryId);
-        }
-        if (subsidiaryName) {
-          localStorage.setItem('subsidiary_name', subsidiaryName);
-        }
-        if (origin) {
-          localStorage.setItem('origin', origin);
-        }
-      });
-    } else {
-      console.error('param.route is undefined or null');
+    const queryParams = param.route.queryParams || {}; 
+    let subsidiaryId = queryParams['subsidiary_id'];
+    let subsidiaryName = queryParams['subsidiary_name'];
+    let origin = queryParams['origin'];
+    event = queryParams['event'];
+
+    if (subsidiaryId) {
+      localStorage.setItem('subsidiary_id', subsidiaryId);
+    }
+    if (subsidiaryName) {
+      localStorage.setItem('subsidiary_name', subsidiaryName);
+    }
+    if (origin) {
+      localStorage.setItem('origin', origin);
     }
 
     // send subject
     setTimeout(() => {
-      param.route.paramMap.subscribe((params: any) => {
-        let obj = {
-          event: event || 'click',
-          path: fullUrl,
-          section: section,
-          action: params.get('name') || params.get('title') || 'home',
-        };
-        obj = { ...obj, ...params_override };
-        this._setEvent(obj);
-        // new Subjects()._setEvent(obj);
-      });
+      const params = param.route.paramMap; // Aquí ya no es necesario subscribirse
+
+      let obj = {
+        event: event || 'click',
+        path: fullUrl,
+        section: section,
+        action: params.get('name') || params.get('title') || 'home',
+      };
+
+      obj = { ...obj, ...params_override };
+
+      this._setEvent(obj);
     }, 100);
   }
 
@@ -82,7 +78,7 @@ export class Listeners {
   }
 
   metricService(params: any) {
-    console.log("params sended", params);
+    console.log('params sended', params);
     this.service.sendMetrics(params).subscribe(
       (response: any) => {
         console.log('send metrics OK', response);

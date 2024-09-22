@@ -1,5 +1,4 @@
-<div class="pdf-container">
-    <iframe src="https://r.btcdn.co/11643/original/927138-ft-onix-sedan.pdf?1707315735" 
-            width="100%" height="100%" style="border: none;">
-    </iframe>
-  </div>
+<div class="pdf-container" *ngIf="file">
+  <iframe [src]="file" width="100%" height="100%" style="border: none">
+  </iframe>
+</div>
