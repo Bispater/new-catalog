@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="button-container">
+    <div class="qr-info">
+      <div class="qr-text">
+        <p>
+          Escanea el Código QR y revisa desde tu smartphone todo lo que viste
+          aquí.
+        </p>
+      </div>
+      <qrcode
+        [qrdata]="myAngularxQrCode"
+        [width]="600"
+        [errorCorrectionLevel]="'M'"
+      >
+      </qrcode>
+    </div>
+  </div>
+</div>

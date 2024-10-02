@@ -1,0 +1,156 @@
+<div class="image-container">
+  <div class="image-1">
+    <img src="https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/fin1.jpg" alt="Image 1" />
+    <button class="image-button" (click)="openPlansPopup()">PLANES</button>
+  </div>
+  <div class="image-2">
+    <img src="https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/fin2.jpg" alt="Image 2" />
+    <button class="image-button" (click)="openInsurancePopup()">SEGURO</button>
+  </div>
+  <div class="image-3">
+    <img src="https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/fin3.webp" alt="Image 3" />
+    <button class="image-button" (click)="openRenovationsPopup()">
+      RENOVACIONES
+    </button>
+  </div>
+</div>
+
+<!-- Popup for "PLANES" -->
+<div class="popup" *ngIf="isOpenPlans">
+  <div class="popup-content">
+    <a class="close-button" (click)="closePlansPopup()">X</a>
+    <div class="more-info">
+      <h1>Planes</h1>
+      <div class="moref-col-wrapper">
+        <div class="moref-col">
+          <h2>Plan Tradicional</h2>
+          <p>
+            Financiamiento sencillo y directo. Aplica con un pie desde 0% y con
+            plazos de 6 a 72 meses.
+          </p>
+          <p>
+            Tus cuotas serán iguales y consecutivas durante el período de
+            financiamiento.
+          </p>
+        </div>
+        <div class="moref-col">
+          <h2>Plan Chevrolet Siempre*</h2>
+          <p>Compra, disfruta y renueva.</p>
+          <p>
+            Con pie desde 20% hasta el 50%, disfruta tu Chevrolet por 25 o 37
+            meses. Después, tú decides si prefieres renovar tu vehículo,
+            conservar el que tienes o simplemente devolverlo.
+          </p>
+          <p>
+            Es la mejor alternativa para estrenar un nuevo Chevrolet cada 2 o 3
+            años con una cuota fija y asequible.
+          </p>
+          <p>
+            *Tu Plan de Financiamiento "Chevy Plan", ahora se llama "Chevrolet
+            Siempre".
+          </p>
+        </div>
+      </div>
+      <div class="qr-formulario">
+        <img
+          src="https://assets.bolder.run/themes/9430/qrform.png?1703604941"
+          alt=""
+        />
+        <p>Escanea el Código QR y solicita tu crédito.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup for "SEGURO" -->
+<div class="popup" *ngIf="isOpenInsurance">
+  <div class="secure-popup-content">
+    <a class="close-button" (click)="closeInsurancePopup()">X</a>
+    <div class="more-info">
+      <h1>Seguro Chevrolet</h1>
+      <div class="moref-col-wrapper secure-popup-wrapper">
+        <div class="moref2-col">
+          <h2>BENEFICIOS Y COBERTURAS*</h2>
+          <ul>
+            <li>Exclusividad de taller.</li>
+            <li>Repuestos genuinos de la marca.</li>
+            <li>
+              Reposición sin deducible de accesorios menores** por hasta 8UF por
+              vigencia anual por póliza en caso de robo o daños. Sin presentar
+              un denuncio en la aseguradora y sin afectar tu siniestralidad.
+            </li>
+            <li>
+              Reposición de vehículo nuevo hasta 24 meses en caso de robo o
+              pérdida total.
+            </li>
+            <li>Deducible inteligente.</li>
+            <li>
+              Chofer y realización de revisión técnica obligatoria incluye el
+              pago de la revisión técnica en el mes que corresponde, para el
+              vehículo asegurado con tope de UF 1.
+            </li>
+            <li>
+              Mi Seguro Chevrolet, plataforma 100% digital para realizar
+              denuncio de siniestros y solicitar asistencia en ruta de forma
+              instantánea.
+            </li>
+          </ul>
+          <p>*Coberturas según condiciones particulares de la póliza</p>
+          <p>
+            **Tapas de rueda, vidrios laterales, películas de seguridad, espejos
+            exteriores completos, emblemas, tapas de bencina y antena.
+          </p>
+        </div>
+        <div class="moref2-col">
+          <h2>ASISTENCIAS*</h2>
+          <ul>
+            <li>Servicio revisión mecánica previaje a domicilio.</li>
+            <li>Conductor por Ley de Alcoholes.</li>
+            <li>Reparación in situ.</li>
+            <li>Servicio de conductor profesional.</li>
+            <li>Remolque o transporte del vehículo.</li>
+          </ul>
+          <p>* Algunas de estos asistencias pueden tener costos extras.</p>
+          <div class="qr-formulario">
+            <img
+              src="https://assets.bolder.run/themes/9430/qrform.png?1703604941"
+              alt=""
+            />
+            <p>Escanea el Código QR y contrata tu seguro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popup for "RENOVACIONES" -->
+<div class="popup" *ngIf="isOpenRenovations">
+  <div class="popup-content">
+    <a class="close-button" (click)="closeRenovationsPopup()">X</a>
+    <div class="more-info">
+      <h1 class="only-title">¿QUIERES RENOVAR TU CHEVROLET?</h1>
+      <div class="moref-col-wrapper">
+        <div class="moref3-col">
+          <h2>
+            Renueva tu auto con Chevrolet Servicios Financieros y abre tu camino
+            a nuevas experiencias.
+          </h2>
+          <br />
+          <p>
+            Contáctanos o visita tu concesionario más cercano para descubrir las
+            ventajas exclusivas que tenemos para ti al renovar tu auto con
+            nosotros de forma personalizada.
+          </p>
+        </div>
+      </div>
+      <div class="qr-formulario">
+        <img
+          src="https://assets.bolder.run/themes/9430/qrform.png?1703604941"
+          alt=""
+        />
+        <p>Escanea el Código QR y contáctanos.</p>
+      </div>
+    </div>
+  </div>
+</div>

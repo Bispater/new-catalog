@@ -60,3 +60,14 @@ mat-card-actions {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .contact-form-container {
+    margin: 0;
+    padding: 20px;
+  }
+
+  form {
+    
+  }
+}

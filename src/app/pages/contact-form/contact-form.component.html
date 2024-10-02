@@ -13,7 +13,7 @@
 
           <mat-form-field appearance="fill">
             <mat-label>Teléfono</mat-label>
-            <input matInput formControlName="telefono" required />
+            <input matInput formControlName="telefono" required type="number"/>
           </mat-form-field>
 
           <mat-form-field appearance="fill">
@@ -32,7 +32,7 @@
           </mat-form-field>
 
           <mat-form-field appearance="fill">
-            <mat-label>Nombre del Auto</mat-label>
+            <mat-label>{{carName}}</mat-label>
             <input
               matInput
               formControlName="carName"

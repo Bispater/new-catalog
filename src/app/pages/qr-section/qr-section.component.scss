@@ -1,0 +1,63 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(
+      to bottom right, 
+      rgba(226, 224, 224, 0.54), 
+      rgba(220, 220, 220, 0.877)
+    ),
+}
+
+.dialog-title {
+  text-align: center;
+  color: #313131;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  letter-spacing: 2px;
+  border-radius: 15px;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-shadow: 5px 5px 20px #a7a7a72c;
+  font-family: "LouisBold", sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.qr-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.qr-text {
+  width: 60%;
+}
+
+.qr-info p {
+  font-weight: 500;
+  font-size: 45px;
+  padding: 14px;
+  color: #b6852d;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .qr-info p {
+    font-size: 18px;
+  }
+  .qr-info img {
+    width: 100%;
+  }
+}

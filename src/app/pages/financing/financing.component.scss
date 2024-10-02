@@ -1,0 +1,197 @@
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+  position: relative;
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.image-1 img,
+.image-2 img,
+.image-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-button {
+  background-color: rgba(255, 255, 255, 0.294);
+  padding: 5%;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 10;
+  font-weight: 500;
+  text-shadow: 5px 5px 5px #000000b2;
+  font-family: "LouisBold", sans-serif;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: none;
+}
+
+.image-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.popup {
+  position: fixed;
+  padding: 40px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.secure-popup-content {
+  margin-top: -40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.secure-popup-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.secure-popup-wrapper .moref2-col {
+  width: 48%;
+}
+
+.qr-formulario {
+  text-align: center;
+}
+
+.moref-col-wrapper {
+  text-align: start;
+}
+
+.moref-col,
+.moref2-col,
+.moref3-col {
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "LouisBold", sans-serif;
+  }
+
+  ul {
+    color: #666;
+    text-transform: initial;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.close-button {
+  width: 45px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background: #b6852d;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.more-info {
+  h1 {
+    margin-left: 55px !important;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #b6852d !important;
+    margin: 0 0 2rem 0;
+    font-family: "LouisBold", sans-serif;
+  }
+
+  .only-title {
+    margin-left: 0px !important;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.qr-formulario-mobile {
+    display: none;
+}
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .image-1,
+  .image-2,
+  .image-3 {
+    width: 100%;
+    height: 250px;
+  }
+
+  .image-1 img,
+  .image-2 img,
+  .image-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-button {
+    font-size: 40px;
+  }
+
+  .qr-formulario {
+    display: none;
+  }
+  
+  .qr-formulario-mobile {
+    display: block;
+    text-align: center;
+  }
+
+}

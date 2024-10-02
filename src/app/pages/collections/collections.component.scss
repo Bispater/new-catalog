@@ -3,12 +3,12 @@
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  // background-color: #393839;
   background-color: #f2f2f2;
   padding: 0 1rem;
 }
 
 .logo-container {
+  cursor: pointer;
   flex: 1;
 }
 
@@ -26,7 +26,6 @@
 .btn-back-home {
   display: inline-block;
   color: #fff;
-  // background-color: #b6852d;
   background-color: #686868;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
@@ -57,15 +56,18 @@ mat-tab-group {
 }
 
 .tab-content {
+  margin-left: 15px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 20px;
   padding: 10px;
 }
 
 mat-card {
   margin-top: 20px;
   width: 450px;
+  height: 350px; 
 
   mat-card-title {
     padding: 15px;
@@ -95,6 +97,7 @@ mat-tab {
     letter-spacing: 1.5px;
   }
 }
+
 
 .car-card {
   position: relative;

@@ -6,6 +6,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSnackBar } from '@angular/material/snack-bar'; 
+import { CarDataService } from '../../services/carService';
 
 @Component({
   selector: 'app-contact-form',
@@ -24,10 +25,12 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 export class ContactFormComponent {
   contactForm: FormGroup;
   sucursal: string = 'Kovacs'; 
-  carName: string = 'Onix Sedán'; 
+  carName: string = ''; 
+  car: any;
 
   constructor(
     private fb: FormBuilder,
+    private carDataService: CarDataService,
     private snackBar: MatSnackBar
     ) {
     this.contactForm = this.fb.group({
@@ -42,6 +45,12 @@ export class ContactFormComponent {
   onSubmit() {
    
   }
+
+  ngOnInit(): void {
+    this.car = this.carDataService.getCar();
+    this.carName = this.car.name;
+  }
+
 
   sendForm(){
     if (this.contactForm.valid) {
