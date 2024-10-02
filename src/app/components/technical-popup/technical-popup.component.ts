@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class TechnicalPopupComponent {
 
   openPdf() {
-    window.open('https://r.btcdn.co/11643/original/927138-ft-onix-sedan.pdf?1707315735', '_blank');
+    // window.open('https://r.btcdn.co/11643/original/927138-ft-onix-sedan.pdf?1707315735', '_blank');
   }
   
   

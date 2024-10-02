@@ -1,16 +1,3 @@
-<!-- <div class="btn-group-container">
-    <div class="btn-group" role="group">
-      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['images']">IMÁGENES</button>
-      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['colors']">COLORES</button>
-      <button type="button" class="btn btn-primary btn-responsive" (click)="openPopupEspecify()">ESPECIFICACIONES
-        DESTACADAS</button>
-      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['onstar']">ONSTAR</button>
-      <button type="button" class="btn btn-primary btn-responsive" (click)="openTechnicalSheetPopup()">FICHA TÉCNICA</button>
-      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['compare']">COMPARACIÓN DE
-        VERSIONES</button>
-      <button type="button" class="btn btn-primary btn-responsive" (click)="openPopup()">ENLACE QR</button>
-    </div>
-  </div> -->
   <div class="btn-group-container">
     <div class="btn-group hide-for-large-up" role="group">
       <button mat-button [matMenuTriggerFor]="menu" class="btn btn-primary btn-responsive">MENÚ</button>
@@ -18,12 +5,13 @@
         <button mat-menu-item [routerLink]="['images']">IMÁGENES</button>
         <button mat-menu-item [routerLink]="['colors']">COLORES</button>
         <button mat-menu-item [routerLink]="['specify']">ESPECIFICACIONES DESTACADAS</button>
+        <button mat-menu-item [routerLink]="['onstar']" [hidden]="car.on_star !== 'yes'">ONSTAR</button>    
         <!-- <button mat-menu-item (click)="openPopupEspecify()">FINACIAMIENTO</button> -->
-        <!-- <button mat-menu-item [routerLink]="['onstar']">ONSTAR</button> -->
         <button mat-menu-item [routerLink]="['technical']">FICHA TÉCNICA</button>
         <button mat-menu-item [routerLink]="['compare']">COMPARACIÓN DE VERSIONES</button>
-        <button mat-menu-item (click)="openPopup()">ENLACE QR</button>
-        <button mat-menu-item [routerLink]="['contact']">COTIZA AQUÍ</button>
+        <!-- <button mat-menu-item [routerLink]="['qr']">ENLACE QR</button> -->
+        <!-- <button mat-menu-item [routerLink]="['financing']">FINANCIAMIENTO</button> -->
+        <!-- <button mat-menu-item [routerLink]="['contact']">COTIZA AQUÍ</button> -->
       </mat-menu>
     </div>
     
@@ -31,13 +19,12 @@
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['images']">IMÁGENES</button>
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['colors']">COLORES</button>
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['specify']">ESPECIFICACIONES DESTACADAS</button>
-      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['onstar']">ONSTAR</button>
-      <!-- <button type="button" class="btn btn-primary btn-responsive"  (click)="openPopupEspecify()">FINACIAMIENTO</button> -->
+      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['onstar']" [hidden]="car.on_star !== 'yes'">ONSTAR</button>      <!-- <button type="button" class="btn btn-primary btn-responsive"  (click)="openPopupEspecify()">FINACIAMIENTO</button> -->
       <!-- <button type="button" class="btn btn-primary btn-responsive" (click)="openTechnicalSheetPopup()">FICHA TÉCNICA</button> -->
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['technical']">FICHA TÉCNICA</button>
       <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['compare']">COMPARACIÓN DE VERSIONES</button>
-      <button type="button" class="btn btn-primary btn-responsive" (click)="openPopup()">ENLACE QR</button>
-      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['contact']">COTIZA AQUÍ</button>
+      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['qr']">ENLACE QR</button>
+      <button type="button" class="btn btn-primary btn-responsive" [routerLink]="['financing']">FINANCIAMIENTO</button>
     </div>
   </div>
   

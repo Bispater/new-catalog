@@ -41,13 +41,14 @@ export class Listeners {
 
     // send subject
     setTimeout(() => {
-      const params = param.route.paramMap; // Aquí ya no es necesario subscribirse
+      const params = param.route.paramMap; 
+      console.log("params->", param);
 
       let obj = {
         event: event || 'click',
         path: fullUrl,
         section: section,
-        action: params.get('name') || params.get('title') || 'home',
+        action: params?.get('name') || params?.get('title') || 'home',
       };
 
       obj = { ...obj, ...params_override };

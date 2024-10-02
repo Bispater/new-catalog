@@ -1,38 +1,3 @@
-.btn-group-container {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
-
-  .btn {
-    margin-left: 15px;
-    background-color: gray;
-    border: none;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    font-family: "LouisBold", sans-serif;
-    padding: 0.6rem 2rem 0.6rem 2rem;
-    display: inline-block;
-    width: max-content;
-
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: darken(#a6731f, 10%);
-    }
-
-  }
-}
-
 .button-container {
   position: absolute;
   top: 25px;
@@ -42,7 +7,8 @@
 }
 
 .btn-group-container {
-  position: absolute;
+  position: fixed; 
+  margin-bottom: 20px;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);

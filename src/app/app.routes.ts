@@ -10,9 +10,11 @@ import { SpecsPopupComponent } from './components/specs-popup/specs-popup.compon
 import { TechnicalSheetComponent } from './pages/technical-sheet/technical-sheet.component';
 import { ContactFormComponent } from './pages/contact-form/contact-form.component';
 import { metricsGuard } from './services/metrics.guard';
+import { QrSectionComponent } from './pages/qr-section/qr-section.component';
+import { FinancingComponent } from './pages/financing/financing.component';
 
 export const routes: Routes = [
-  { path: 'home', component: HomeComponent},
+  { path: 'home', component: HomeComponent, canActivate: [metricsGuard] },
   { path: 'collections/:title', component: CollectionsComponent, canActivate: [metricsGuard] },
   { path: 'onstar', component: OnstarComponent, canActivate: [metricsGuard]  },
   { 
@@ -27,6 +29,8 @@ export const routes: Routes = [
       { path: 'onstar', component: OnstarComponent, canActivate: [metricsGuard] },
       { path: 'compare', component: CompareProductComponent, canActivate: [metricsGuard] },
       { path: 'contact', component: ContactFormComponent, canActivate: [metricsGuard] },
+      { path: 'qr', component: QrSectionComponent, canActivate: [metricsGuard] },
+      { path: 'financing', component: FinancingComponent, canActivate: [metricsGuard] },
       { path: '', redirectTo: 'images', pathMatch: 'full' }
     ]
   },  
