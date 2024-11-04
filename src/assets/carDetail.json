@@ -187,7 +187,7 @@
       {
         "name": "Sail Hatchback",
         "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/950693-SAIL-HB-LTZ-rojo-burdeo-metalico.webp",
-        "price": "$10.990.000",
+        "price": "$10.490.000",
         "on_star": "no",
         "images": [
           {
@@ -257,12 +257,12 @@
           },
           {
             "color": "Blanco",
-            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/950689-SAIL-HB-LTZ-plata-metalico.webp",
+            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/950692-SAIL-HB-LTZ-blanco.webp",
             "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail-hb/01-images/colorizer/colorchips/04-blanco.jpg"
           },
           {
             "color": "Plata Metálico",
-            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/950692-SAIL-HB-LTZ-blanco.webp",
+            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/950689-SAIL-HB-LTZ-plata-metalico.webp",
             "colorchip": "https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/cars/2024-sail-hb/01-images/colorizer/colorchips/05-plata-met.jpg"
           },
           {
@@ -573,7 +573,7 @@
       {
         "name": "COLORADO",
         "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/953636-05-Colorado_HC_MY24_front_blanco_GAZ.webp",
-        "price": "$27.340.484",
+        "price": "$33.308.100",
         "on_star": "yes",
         "images": [
           {
@@ -785,7 +785,7 @@
       {
         "name": "Groove",
         "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/782911-GROOVE_MCX_1XT26_LV3_LHD_GRQ.png",
-        "price": "$12.690.000",
+        "price": "$11.890.000",
         "on_star": "no",
         "images": [
           {

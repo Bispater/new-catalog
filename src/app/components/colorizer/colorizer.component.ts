@@ -6,6 +6,7 @@ import { CarService } from '../../services/dataService';
 import { CarDataService } from '../../services/carService';
 import { Listeners } from '../../utils/listeners';
 
+
 @Component({
   selector: 'app-colorizer',
   standalone: true,
