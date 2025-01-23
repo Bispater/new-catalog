@@ -785,7 +785,7 @@
       {
         "name": "Groove",
         "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/782911-GROOVE_MCX_1XT26_LV3_LHD_GRQ.png",
-        "price": "$11.890.000",
+        "price": "$11.490.000",
         "on_star": "no",
         "images": [
           {
@@ -1154,117 +1154,6 @@
         ],
         "files": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/927131-ficha-tecnica-traverse.pdf?1707315045",
         "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/traverse"
-      },
-      {
-        "name": "Blazer",
-        "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838461-rojo-blazer-2023.png",
-        "price": "$43.990.000",
-        "on_star": "yes",
-        "images": [
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838297-blazer-rs-2500x1000.jpeg",
-            "alt": "Blazer - blazer-rs-2500x1000.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838290-01-galeria-exterior-blazer-rs.jpeg",
-            "alt": "Blazer - 01-galeria-exterior-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838295-05-galeria-exterior-blazer-rs.jpeg",
-            "alt": "Blazer - 05-galeria-exterior-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838298-06-galeria-exterior-blazer-rs.jpeg",
-            "alt": "Blazer - 06-galeria-exterior-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838292-01-diseno-blazer-rs.jpeg",
-            "alt": "Blazer - 01-diseno-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838296-04-diseno-blazer-rs.jpeg",
-            "alt": "Blazer - 04-diseno-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838293-01-desempeno-blazer-rs.jpeg",
-            "alt": "Blazer - 01-desempeño-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838289-01-tecno-blazer-rs.jpeg",
-            "alt": "Blazer - 01-tecno-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838288-02-tecno-blazer-rs.jpeg",
-            "alt": "Blazer - 02-tecno-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838291-03-galeria-interior-blazer-rs.jpeg",
-            "alt": "Blazer - 03-galeria-interior-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838294-04-galeria-interior-blazer-rs.jpeg",
-            "alt": "Blazer - 04-galeria-interior-blazer-rs.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838299-galeria-interior-blazer-rs-07.jpeg",
-            "alt": "Blazer - galeria-interior-blazer-rs-07.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838301-pop-up-tech-blazer-rs-01.jpeg",
-            "alt": "Blazer - pop-up-tech-blazer-rs-01.jpeg"
-          },
-          {
-            "src": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838300-pop-up-tech-blazer-rs-04.jpeg",
-            "alt": "Blazer - pop-up-tech-blazer-rs-04.jpeg"
-          }
-        ],
-        "colors": [
-          {
-            "color": "Rojo Brillante",
-            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838451-04-rojo-blazer-rs-2023.png",
-            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/rojo-brillante.jpg"
-          },
-          {
-            "color": "Gris Metálico",
-            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838449-02-gris-met-blazer-rs-2023.png",
-            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/plata-met.jpg"
-          },
-          {
-            "color": "Blanco Perla",
-            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838448-03-blanco-blazer-rs-2023.png",
-            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/blanco-perla.jpg"
-          },
-          {
-            "color": "Plata Metálico",
-            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838450-01-plata-met-blazer-rs-2023.png",
-            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/plata-met.jpg"
-          },
-          {
-            "color": "Negro",
-            "image": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/838447-05-negro-blazer-rs-2023.png",
-            "colorchip": "https://chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/suv-and-crossovers/2023-blazer/colorizer/feb/negro.jpg"
-          }
-        ],
-        "specs": [
-          {
-            "img": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/783188-motor-v8-de-5.3l.png",
-            "text": "MOTOR 3.6L V6 AWD 308 HP / 365 NM TRANSMISIÓN AT 9 VELOCIDADES"
-          },
-          {
-            "img": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/783190-asistente-frenado-automatico.png",
-            "text": "ASISTENTE DE FRENADO AUTOMÁTICO"
-          },
-          {
-            "img": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/783187-camaras-fhd-panoramica.png",
-            "text": "SISTEMA DE CÁMARAS 360º"
-          },
-          {
-            "img": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/783189-control-crucero.png",
-            "text": "CONTROL CRUCERO ADAPTATIVO"
-          }
-        ],
-        "files": "https://storage.googleapis.com/rinnomanager-media_storage/ms-gmotors/compressed/927135-ficha-tecnica-blazer.pdf?1707315411",
-        "compare_iframe": "https://secure-developments.com/commonwealth/chile/gm_specs/blazer"
       },
       {
         "name": "Tahoe",
